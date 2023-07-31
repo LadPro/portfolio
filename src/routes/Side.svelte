@@ -4,7 +4,7 @@
 
 </script>
 
-<section>
+<section class="bg-lateral fixed h-screen w-2/12 flex flex-col items-center justify-center space-y-10">
     <Imagen />
     <Nav/>
 </section>
