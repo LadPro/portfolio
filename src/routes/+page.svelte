@@ -1,1 +1,1 @@
-<h1 class="text-3xl font-bold underline"> Hola asdfasdfasdf</h1>
+<h1 class="text-3xl font-bold underline text-primario text-original"> Hola asdfasdfasdf</h1>
