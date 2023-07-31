@@ -4,13 +4,13 @@
 
 <div>
     <nav>
-        <ul class="flex flex-col justify-center gap-5">
-            <li class="shrink">Joel mora.</li>
-            <li class="shrink">Sobre mi.</li>
-            <li class="shrink">Portafolio.</li>
-            <li class="shrink">Educacion.</li>
-            <li class="shrink">Skills.</li>
-            <li class="shrink">Contacto.</li>
+        <ul class="flex flex-col justify-center gap-5 text-xl">
+            <li class="justify-center text-center hover:text-verde text-azul underline">Joel mora.</li>
+            <li class="justify-center text-center hover:text-verde text-azul underline">Sobre mi.</li>
+            <li class="justify-center text-center hover:text-verde text-azul underline">Portafolio.</li>
+            <li class="justify-center text-center hover:text-verde text-azul underline">Educacion.</li>
+            <li class="justify-center text-center hover:text-verde text-azul underline">Skills.</li>
+            <li class="justify-center text-center hover:text-verde text-azul underline">Contacto.</li>
         </ul>
     </nav>
 </div>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.b {
+    background-color: #461959;/*primaria*/;
+    background-color: #7A316F; /*lateral*/
+    background-color: #3DF039; /*resaltada*/
+    background-color: #CD6688; /*espe*/
+    background-color: #8696FE; /*azul*/
+    background-color: #E0BAFD; /*subtitulos*/
+    }

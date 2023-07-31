@@ -12,10 +12,10 @@ export default {
       colors:{
         primario: '#461959',
         lateral: '#7A316F',
-        letraResaltada: '#3DF039',
-        letrasEspeciales: '#CD6688',
-        letraGeneral: '#8696FE',
-        letraSubtitulos: '#E0BAFD'
+        verde: '#3DF039',
+        subt: '#CD6688',
+        azul: '#8696FE',
+        rosa: '#E0BAFD'
       }
       }
   },

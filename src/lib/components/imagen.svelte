@@ -3,6 +3,6 @@
     // import Cara from '../../../static/imagenes/sin fondo.png'
 </script>
 
-<div class="">
+<div class="pr-4">
     <img class="rounded-full w-52 h-auto" alt="Joel Mora" src={Cara}>
 </div>

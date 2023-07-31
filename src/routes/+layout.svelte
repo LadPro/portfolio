@@ -5,9 +5,6 @@
     import '@fontsource/montserrat'
     import '@fontsource/mulish'
 </script>
-<body class="bg-primario">
-    
-</body>
-<slot />
 
-<Side />
+<Side/>
+<slot />
