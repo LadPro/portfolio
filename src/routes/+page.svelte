@@ -7,5 +7,6 @@
 <div>
     <Side /> 
     <Page1 />
+    <Page1 />
 </div>
 
