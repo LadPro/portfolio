@@ -4,8 +4,8 @@
 </script>
 
 
-<div class="flex">
-    <Side />
+<div>
+    <Side /> 
     <Page1 />
 </div>
 

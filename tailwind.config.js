@@ -16,6 +16,9 @@ export default {
         subt: '#CD6688',
         azul: '#8696FE',
         rosa: '#E0BAFD'
+      },
+      margin: {
+        'izq':'16.66667%',
       }
       }
   },
