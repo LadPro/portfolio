@@ -2,7 +2,7 @@
     import Buton from "./buton.svelte";
     // export let cualquiercosa;
 </script>
-<section class="w-screen ml-izq h-screen flex flex-col pl-11 justify-center gap-10 items-center max-w-screen-xl">
+<section class="w-5/6 ml-izq h-screen flex flex-col pl-11 justify-center gap-10 items-center pr-11">
     <div class="flex mb-7">
         <h1 class="text-rosa text-9xl font-semibold uppercase pr-7 ">JOEL</h1>
         <h1 class="text-verde text-9xl font-semibold uppercase">MORA</h1>
