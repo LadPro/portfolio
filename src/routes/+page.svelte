@@ -2,6 +2,7 @@
     import Side from '../lib/components/Side.svelte'
     import Page1 from '../lib/components/pagina1.svelte'
     import Page2 from '../lib/components/pagina2.svelte'
+    import Page3 from '../lib/components/pagina3.svelte'
 </script>
 
 
@@ -9,5 +10,6 @@
     <Side /> 
     <Page1 />
     <Page2 />
+    <Page3 />
 </div>
 
