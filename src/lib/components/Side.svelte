@@ -7,7 +7,7 @@
 <!-- <section class="bg-lateral fixed h-screen w-2/12 flex flex-col items-center justify-center space-y-10"> -->
 <section class="bg-lateral fixed h-screen w-2/12">
     <!-- <div class="grid grid-flow-row justify-items-center items-center h-full -m-20"> -->
-    <div class="flex flex-col space-y-32 justify-items-center items-center h-full -m-20">
+    <div class="flex flex-col space-y-28 justify-items-center items-center h-full -m-20">
         <span class="mt-20">
 
             <Imagen />

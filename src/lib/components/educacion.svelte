@@ -1,0 +1,20 @@
+<script>
+    export let Nombre = 'Nombre del curso (nombre)'
+    export let Fechas = 'Agosto 2022 - Septiembre 2022 (fechas)'
+    export let Descripcion = 'Descripcion general, conocimientos aprendidos. (Descripcion)'
+    export let Duracion = 'curso 10 horas (Duracion)'
+</script>
+
+<div class="flex flex-col text-azul w-full mr-ad gap-8 border-b">
+    <span class="flex justify-between">
+        <h1 class="text-subt text-3xl">{Nombre}</h1>
+        <h1 class="text-verde text-lg">{Fechas}</h1>
+    </span>
+    <span>
+        <p class="text-xl">{Descripcion}</p>
+    </span>
+    <div class="flex justify-between mb-9">
+        <p class="text-lg">{Duracion}</p>
+        <button class="btn-normal w-fit h-fit py-1 px-4 text-black mr-ado"> Certificado</button>    
+    </div>
+</div>

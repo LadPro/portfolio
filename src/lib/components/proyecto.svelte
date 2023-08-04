@@ -5,21 +5,21 @@
     import Imagen from './resourse/Anotación 2020-08-18 212512.png';
 </script>
 
-<div class="w-64 h-96 bg-lateral text-rosa outline outline-4 outline-azul rounded-2xl border-azul overflow-hidden">
+<div class="mx-2 my-4 w-64 h-96 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden">
     <div class="h-32 overflow-hidden object-cover">
         <img class="" src={imagen} alt="">
     </div>
     <div class="flex flex-col grow px-3 h-63 content-between">
         <div class="">
-            <h1 class="text-2xl font-semibold my-3 whitespace-nowrap overflow-ellipsis overflow-hidden">{nproyecto}</h1>
+            <h1 class="text-2xl font-semibold my-3 whitespace-nowrap overflow-ellipsis overflow-hidden text-justify">{nproyecto}</h1>
             <p class="text-l overflow-ellipsis overflow-hidden h-20 text-justify">{dproyecto}</p>
         </div>
         <div class="flex flex-col items-center flex-grow">
-            <span class="flex h-12">
+            <span class="flex h-16">
                 <p>tecnologias</p>
             </span>
             <span class="text-black w-full">
-                <button class="btn-normal w-full h-auto py-2">Mas información</button>
+                <button class="btn-normal w-full h-auto py-">Mas información</button>
                 <!-- <Buton texto="Mas informacion" hovercolor="rosa" /> -->
             </span>
             <!-- <p class="text-2xl font-semibold mb-3">Mas informacion</p> -->

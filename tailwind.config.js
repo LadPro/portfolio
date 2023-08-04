@@ -19,6 +19,9 @@ export default {
       },
       margin: {
         'izq':'16.66667%',
+        'ad':'10%',
+        'adi':'8%',
+        'ado':'15%',
       
       },
       height:{
