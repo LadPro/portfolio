@@ -4,5 +4,5 @@
 </script>
 
 <div class="pr-4">
-    <img class="rounded-full w-52 h-auto" alt="Joel Mora" src={Cara}>
+    <img class="rounded-full w-60 h-auto" alt="Joel Mora" src={Cara}>
 </div>

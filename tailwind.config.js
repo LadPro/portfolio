@@ -19,6 +19,13 @@ export default {
       },
       margin: {
         'izq':'16.66667%',
+      
+      },
+      height:{
+        '63' : '252px',
+      },
+      padding:{
+        'general':''
       }
       }
   },
