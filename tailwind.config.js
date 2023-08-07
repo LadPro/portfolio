@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   // mode: 'jit',
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: [
+    './src/**/*.{html,js,svelte,ts}',
+    './components/**/*.{html,js,svelte,ts}',
+    './pages/**/*.{html,js,svelte,ts}',
+  ],
   theme: {
     extend: {
       fontFamily:{
@@ -32,10 +36,7 @@ export default {
       }
       }
   },
-  plugins: [],
+  plugins: [   
+     require("daisyui")],
 }
 
-// module.exports = {
-//   //...
-//   plugins: [require("daisyui")],
-// }
