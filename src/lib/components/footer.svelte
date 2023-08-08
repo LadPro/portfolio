@@ -3,7 +3,7 @@
     let tamañoicono = 20
 </script>
 
-<footer class="footer p-10 color text-neutral-content items-center" style="background-color: {colorfondo}">
+<footer class="footer p-10 color text-neutral-content items-center h-56" style="background-color: {colorfondo}">
     <div>
       <p class="text-3xl text-gray-300">Tambien puedes contactarme a travez de:</p>
     </div> 

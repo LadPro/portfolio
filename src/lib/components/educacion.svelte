@@ -5,7 +5,7 @@
     export let Duracion = 'curso 10 horas (Duracion)'
 </script>
 
-<div class="flex flex-col text-azul w-full mr-ad gap-8 border-b">
+<div class="flex flex-col text-azul w-full mr-ad gap-8 border-b-4">
     <span class="flex justify-between">
         <h1 class="text-subt text-3xl">{Nombre}</h1>
         <h1 class="text-verde text-lg">{Fechas}</h1>

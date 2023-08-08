@@ -4,9 +4,9 @@
 </script>
 
 
-<section id="Pagina5" class="w-5/6 ml-izq flex flex-col h-screen justify-center gap-10 px-32">
+<section id="Pagina5" class="w-5/6 ml-izq flex flex-col h-screen justify-center gap-10 px-32 ">
     <div class="flex">
-        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest ">Skills.</h1>
+        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7">Skills</h1>
     </div>
     <div class="flex flex-col text-subt text-3xl gap-10 font-medium">
 

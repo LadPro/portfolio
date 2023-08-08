@@ -4,7 +4,7 @@
 </script>
 <section id="Pagina2" class="w-5/6 ml-izq h-screen flex flex-col justify-center gap-10 px-32">
     <div class="flex mb-7">
-        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi.</h1>
+        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
     <p class="text-azul text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quos necessitatibus facere repudiandae quo nobis, dicta placeat exercitationem, adipisci eveniet voluptatum iste natus eum quaerat minus. Neque quas nam unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam, explicabo necessitatibus rem, voluptates cum nisi, commodi perferendis distinctio libero vero inventore alias suscipit voluptatem iusto autem ipsa odit eos..</p>
     <h2 class="text-subt text-3xl">Alguna frase corta sobre mis mierdas.</h2>

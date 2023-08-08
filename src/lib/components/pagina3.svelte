@@ -6,7 +6,7 @@
 </script>
 <section id="Pagina3" class="w-5/6 ml-izq flex flex-col justify-center gap-10 px-32 h-screen">
     <div class="flex">
-        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-28">portafolio.</h1>
+        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-20">portafolio</h1>
     </div>
     
     <div class="flex w-full justify-evenly flex-wrap">
