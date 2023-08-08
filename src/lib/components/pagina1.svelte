@@ -14,7 +14,7 @@
         <a class="text-3xl text-verde" href="mailto:JoelJMoraB@gmail.com">JoelJMoraB@gmail.com</a>
         <!-- <h3 class="text-xl text-verde">JoelJMoraB@gmail.com.</h3> -->
     </span>
-    <button class="btn-normal">Descargar mi CV</button>
+    <button class="btn-normal text-gray-800">Descargar mi CV</button>
     <!-- <Buton hovercolor="rosa" texto="Descargar mi CV"/> -->
 </section>
 

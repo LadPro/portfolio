@@ -1,4 +1,6 @@
 <script>
+    import Footer from "./footer.svelte";
+
 </script>
 
 
@@ -21,8 +23,11 @@
         </span>
         <button class="btn-normal text-black ">Enviar Mensaje</button>
     </div>
-
 </section>
+<footer class="w-5/6 ml-izq mt-16">
+
+    <Footer />
+</footer>
 
 <style>
 

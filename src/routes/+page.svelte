@@ -6,18 +6,18 @@
     import Page4 from '../lib/components/pagina4.svelte'
     import Page5 from '../lib/components/pagina5.svelte'
     import Page6 from '../lib/components/pagina6.svelte'
-    import Smooth from '$lib/components/smooth.svelte'
 </script>
 
 
 <div>
-    <Smooth />
     <Side /> 
-    <Page1 />
-    <Page2 />
-    <Page3 />
-    <Page4 />
-    <Page5 />
-    <Page6 />
+    <div class="space-y-40">
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Page5 />
+        <Page6 />
+    </div>
 </div>
 
