@@ -2,7 +2,7 @@
     import Buton from "./buton.svelte";
     // export let cualquiercosa;
 </script>
-<section class="w-5/6 ml-izq h-screen flex flex-col pl-11 justify-center gap-20 items-center pr-11">
+<section id="Pagina1" class="w-5/6 ml-izq h-screen flex flex-col pl-11 justify-center gap-20 items-center pr-11">
     <div class="flex">
         <h1 class="text-rosa text-9xl font-semibold uppercase pr-7 ">JOEL</h1>
         <h1 class="text-verde text-9xl font-semibold uppercase">MORA</h1>
@@ -18,6 +18,3 @@
     <!-- <Buton hovercolor="rosa" texto="Descargar mi CV"/> -->
 </section>
 
-<style>
-
-</style>

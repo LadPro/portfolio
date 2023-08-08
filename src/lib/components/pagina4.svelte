@@ -1,7 +1,7 @@
 <script>
     import Educacion from "./educacion.svelte";
 </script>
-<section class="w-5/6 ml-izq flex flex-col justify-center gap-10 px-32">
+<section id="Pagina4" class="w-5/6 ml-izq flex flex-col justify-center gap-10 px-32">
     <div class="flex">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest ">EDUCACIóN.</h1>
     </div>

@@ -2,7 +2,7 @@
     import Buton from "./buton.svelte";
     // export let cualquiercosa;
 </script>
-<section class="w-5/6 ml-izq h-screen flex flex-col justify-center gap-10 px-32">
+<section id="Pagina2" class="w-5/6 ml-izq h-screen flex flex-col justify-center gap-10 px-32">
     <div class="flex mb-7">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi.</h1>
     </div>
