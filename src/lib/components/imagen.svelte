@@ -1,5 +1,5 @@
 <script>
-    import Cara from './resourse/sin fondo.png'
+    import Cara from './resourse/imagenes/sin fondo.png'
     // import Cara from '../../../static/imagenes/sin fondo.png'
 </script>
 

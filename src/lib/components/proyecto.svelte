@@ -2,7 +2,7 @@
     export let nproyecto = 'Nombre del proyecto';
     export let imagen = Imagen;
     export let dproyecto = 'Lorem ipsum  dolor sit amet  ipsum dolor sit amet consectetur.';
-    import Imagen from './resourse/Anotación 2020-08-18 212512.png';
+    import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
 </script>
 
 <div class="mx-2 my-4 w-64 h-96 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden">

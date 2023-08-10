@@ -6,7 +6,7 @@
     import Page4 from '../lib/components/pagina4.svelte'
     import Page5 from '../lib/components/pagina5.svelte'
     import Page6 from '../lib/components/pagina6.svelte'
-    import Iconodeplegable from '../lib/components/iconodesplegable.svelte'
+
 </script>
 
 
@@ -18,7 +18,6 @@
         <Page3 />
         <Page4 />
         <Page5 />
-        <Iconodeplegable />
         <Page6 />
         
     </div>
