@@ -5,7 +5,7 @@ export const lateral = writable('#7A316F');
 export const verde = writable('#3DF039'); 
 export const subt = writable('#CD6688'); 
 export const azul = writable('#8696FE'); 
-export const rosa = writable('##E0BAFD'); 
+export const rosa = writable('#E0BAFD'); 
 
 
 //para importar
