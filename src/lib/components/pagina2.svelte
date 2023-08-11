@@ -1,5 +1,4 @@
 <script>
-    import Buton from "./buton.svelte";
     import Iconodesplegable from "./iconodesplegable.svelte";
     import {primaria} from './resourse/variables'
     import {lateral} from './resourse/variables'
@@ -26,7 +25,7 @@
 </script>
 
 
-<section id="Pagina2" class="w-5/6 ml-izq h-screen flex flex-col justify-center gap-10 px-32">
+<section id="Pagina2" class="w-5/6 ml-izq min-h-screen scroll-m-11 flex flex-col gap-10 px-32">
     <div class="flex mb-7">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
@@ -34,16 +33,16 @@
     <h2 class="text-subt text-3xl">Alguna frase corta sobre mis mierdas.</h2>
     <div class="flex flex-col gap-6 mt-8">
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo}/>
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria}/>
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={pgit} viewbox="0 0 12 12" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={plin} viewbox="0 0 512 512" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={pwhat} viewbox="0 0 90 90" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
         </span>
     </div>
     <div>

@@ -14,7 +14,9 @@
     <Side /> 
     <div class="space-y-40">
         <Page1 />
-        <Page2 />
+        <div class="flex ">
+            <Page2 />
+        </div>
         <Page3 />
         <Page4 />
         <Page5 />

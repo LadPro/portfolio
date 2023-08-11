@@ -25,8 +25,15 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/lobster": "^5.0.8",
 		"@fontsource/montserrat": "^5.0.5",
 		"@fontsource/mulish": "^5.0.5",
-		"@fontsource/roboto": "^5.0.5"
+		"@fontsource/overpass": "^5.0.8",
+		"@fontsource/roboto": "^5.0.5",
+		"@fontsource/roboto-mono": "^5.0.8",
+		"@fontsource/roboto-slab": "^5.0.8",
+		"@fontsource/source-code-pro": "^5.0.8",
+		"@fontsource/space-grotesk": "^5.0.8",
+		"@fontsource/ubuntu": "^5.0.8"
 	}
 }

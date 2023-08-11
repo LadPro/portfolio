@@ -11,7 +11,14 @@ export default {
       fontFamily:{
         original: ["roboto", "sans-serif"],
         mont: ["montserrat", "sans-serif"],
-        mulish: ["mulish", "sans-serif"]
+        mulish: ["mulish", "sans-serif"],
+        ubuntu: ["ubuntu", "sans-serif"],
+        robotomono: ["roboto-mono", "sans-serif"],
+        robotoslab: ["roboto-slab", "sans-serif"],
+        sourcecodepro: ["source-code-pro", "sans-serif"],
+        lobster: ["lobster", "sans-serif"],
+        spacegrotesk: ["space-grotesk", "sans-serif"],
+        overpass: ["overpass", "sans-serif"]
       },
       colors:{
         primario: '#461959',
