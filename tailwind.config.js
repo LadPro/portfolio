@@ -30,7 +30,11 @@ export default {
       },
       margin: {
         'izq':'16.66667%',
-        'ad':'10%',
+        'ad':'10vh',
+      
+      },
+      spacing: {
+        'ad':'10vh',
         'adi':'8%',
         'ado':'15%',
       

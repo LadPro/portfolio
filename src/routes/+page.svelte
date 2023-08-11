@@ -12,14 +12,24 @@
 
 <div>
     <Side /> 
-    <div class="space-y-40">
+    <div class="space-y-28">
         <Page1 />
-        <div class="flex ">
+        <div class="flex min-h-screen items-center">
             <Page2 />
         </div>
-        <Page3 />
-        <Page4 />
-        <Page5 />
+
+        <div class="flex min-h-screen items-center">
+            <Page3 />
+        </div>
+
+        <div class="flex min-h-screen items-center">
+            <Page4 />
+        </div>
+
+        <div class="flex min-h-screen items-center">
+            <Page5 />
+        </div>
+
         <Page6 />
         
     </div>
