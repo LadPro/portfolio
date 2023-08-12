@@ -1,11 +1,12 @@
 <script>
+    import Icono from "./icono.svelte";
     export let nproyecto = 'Nombre del proyecto';
     export let imagen = Imagen;
     export let dproyecto = 'Lorem ipsum  dolor sit amet  ipsum dolor sit amet consectetur.';
     import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
 </script>
 
-<div class="mx-2 my-4 w-64 h-96 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden">
+<div class="mx-2 my-4 w-64 h-96 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
     <div class="h-32 overflow-hidden object-cover">
         <img class="" src={imagen} alt="">
     </div>
@@ -19,7 +20,9 @@
                 <p>tecnologias</p>
             </span>
             <span class="text-black w-full">
-                <button class="btn-normal w-full h-auto py-">Mas información</button>
+                <Icono />
+
+                <!-- <button class="btn-normal w-full h-auto py-">Mas información</button> -->
                 <!-- <Buton texto="Mas informacion" hovercolor="rosa" /> -->
             </span>
             <!-- <p class="text-2xl font-semibold mb-3">Mas informacion</p> -->

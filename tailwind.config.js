@@ -34,7 +34,7 @@ export default {
       
       },
       spacing: {
-        'ad':'10vh',
+        'ad':'15vh',
         'adi':'8%',
         'ado':'15%',
       
