@@ -5,6 +5,10 @@
     import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
     import Css from "./resourse/tecnologias/css.svelte";
     import Js from "./resourse/tecnologias/JS.svelte";
+    import Svelte from "./resourse/tecnologias/svelte.svelte";
+    import Tailwind from "./resourse/tecnologias/tailwind.svelte";
+    import Aws from "./resourse/tecnologias/aws.svelte";
+    import Python from "./resourse/tecnologias/python.svelte";
 </script>
 
 <div class=" flex flex-col mx-2 my-4 w-72 h-altoproyecto bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
@@ -16,10 +20,14 @@
         <h1 class="text-lg font-semibold my-3 overflow-ellipsis overflow-y-hidden text-justify h-24">{nproyecto}</h1>
         
         <div class="flex flex-col items-center h-36 justify-between">
-            <span class="flex gap-2">
+            <span class="flex flex-wrap gap-2">
                 <Html />
                 <Css />
                 <Js />
+                <Svelte />
+                <Tailwind />
+                <Aws />
+                <Python />
             </span>
             <span class="pb-3 flex gap-3 ">
                 
