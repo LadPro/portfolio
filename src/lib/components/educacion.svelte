@@ -15,6 +15,6 @@
     </span>
     <div class="flex justify-between mb-9">
         <p class="text-lg">{Duracion}</p>
-        <button class="btn-normal w-fit h-fit py-1 px-4 text-black mr-ado"> Certificado</button>    
+        <button class="btn-normal w-fit h-fit py-1 px-4 text-black mr-mrIzqEduca"> Certificado</button>    
     </div>
 </div>

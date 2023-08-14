@@ -1,5 +1,4 @@
 <script>
-    import Icono from "./icono.svelte";
     export let nproyecto = 'Nombre del proyecto';
     export let imagen = Imagen;
     export let dproyecto = 'Lorem ipsum  dolor sit amet  ipsum dolor sit amet consectetur.';
@@ -20,7 +19,6 @@
                 <p>tecnologias</p>
             </span>
             <span class="text-black w-full">
-                <Icono />
 
                 <!-- <button class="btn-normal w-full h-auto py-">Mas información</button> -->
                 <!-- <Buton texto="Mas informacion" hovercolor="rosa" /> -->
