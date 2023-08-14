@@ -3,6 +3,8 @@
     export let nproyecto = 'Nombre del proyecto y descripcion del mismo algo corto no tan largo pero que de a entender mas o menos de que trata y si es posible tambien colocar para que fue hecho';
     export let imagen = Imagen;
     import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
+    import Css from "./resourse/tecnologias/css.svelte";
+    import Js from "./resourse/tecnologias/JS.svelte";
 </script>
 
 <div class=" flex flex-col mx-2 my-4 w-72 h-altoproyecto bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
@@ -14,8 +16,10 @@
         <h1 class="text-lg font-semibold my-3 overflow-ellipsis overflow-y-hidden text-justify h-24">{nproyecto}</h1>
         
         <div class="flex flex-col items-center h-36 justify-between">
-            <span class="flex">
+            <span class="flex gap-2">
                 <Html />
+                <Css />
+                <Js />
             </span>
             <span class="pb-3 flex gap-3 ">
                 
