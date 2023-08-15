@@ -9,27 +9,43 @@
     import Tailwind from "./resourse/tecnologias/tailwind.svelte";
     import Aws from "./resourse/tecnologias/aws.svelte";
     import Python from "./resourse/tecnologias/python.svelte";
+    import Electronica from "./resourse/tecnologias/electronica.svelte";
+    let alto = 450;
+    let aimagen = 160;
+    let resto = alto - aimagen;
+    let texto = 120;
+    let cont = resto - texto;
+    let ico = 115;
+    let link = cont - ico;
+
+
 </script>
 
-<div class=" flex flex-col mx-2 my-4 w-72 h-altoproyecto bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
-    <div class="h-40 overflow-hidden object-cover">
+<div style="height: {alto}px;" class=" flex flex-col mx-2 my-4 w-72 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
+    <div style="height: {aimagen}px;" class="h-40 overflow-hidden object-cover">
         <img class="" src={imagen} alt="">
     </div>
-    <div class="flex flex-col h-60 px-3 justify-between">
+    <div style="height: {resto}px;" class="flex flex-col px-3 justify-between">
         
-        <h1 class="text-lg font-semibold my-3 overflow-ellipsis overflow-y-hidden text-justify h-24">{nproyecto}</h1>
+        <h1 style="height: {texto}px;" class="text-lg font-semibold py-2 overflow-ellipsis overflow-y-hidden text-justify">{nproyecto}</h1>
         
-        <div class="flex flex-col items-center h-36 justify-between">
-            <span class="flex flex-wrap gap-2">
-                <Html />
-                <Css />
-                <Js />
-                <Svelte />
-                <Tailwind />
-                <Aws />
-                <Python />
-            </span>
-            <span class="pb-3 flex gap-3 ">
+        <div style="height: {cont}px;" class="flex flex-col items-center justia4erfy-between">
+            
+            <div style="height: {ico}px;" class="flex-col flex items-center justify-center gap-2">
+                <span class="flex flex-wrap gap-2">
+                    <Html />
+                    <Css />
+                    <Js />
+                    <!-- <Svelte /> -->
+                </span>
+                <span class="flex gap-2">
+                    <Tailwind />
+                    <!-- <Aws /> -->
+                    <Python />
+                    <Electronica />
+                </span>
+            </div>
+            <span style="height: {link}px;" class="pb-3 flex gap-3 ">
                 
                     <a class="link active:scale-95" href="#.">
                         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">

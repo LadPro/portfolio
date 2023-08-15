@@ -35,7 +35,7 @@ export default {
       },
       spacing: {
         'ad':'15vh',
-        'altoproyecto': '400px',
+        'altoproyecto': '480px',
         'mrIzqEduca':'15%',
         'padIcon':'6px',
       
