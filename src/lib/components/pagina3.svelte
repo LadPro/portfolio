@@ -3,6 +3,8 @@
     let scr = 'src/lib/components/resourse/imagenes/'
     import Proyecto from "./proyecto.svelte";
     import Proyecto2 from "./proyecto2.svelte";
+    import Css from "./resourse/tecnologias/css.svelte"
+    let tec1a = ['js','css','svelte']
     // export let cualquiercosa;
 </script>
 <section id="Pagina3" class="w-5/6 ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
@@ -11,7 +13,7 @@
     </div>
     
     <div class="flex w-full justify-evenly flex-wrap">
-        <Proyecto2   imagen="{scr}1265009.jpg"/>
+        <Proyecto2 Tecnologias1= {['js']} Tecnologias2={["aws","svelte","electronica"]} linkGithub="#"  imagen="{scr}1265009.jpg"/>
         <Proyecto2   imagen="{scr}1265009.jpg"/>
         <Proyecto2   imagen="{scr}1265009.jpg"/>
         <!-- <Proyecto nproyecto='Amely esta arrecha' dproyecto='Amely en este momento esta aburrida poruqe su clase esta aburrida' imagen="{scr}B979363067Z.1_20160804121955_000+G647BE7RQ.1-0.png.jpg"/>

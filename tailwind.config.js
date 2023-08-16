@@ -38,6 +38,7 @@ export default {
         'altoproyecto': '480px',
         'mrIzqEduca':'15%',
         'padIcon':'6px',
+        'navGap':'4vh',
       
       },
       height:{
