@@ -5,7 +5,7 @@
     export let viewbox = '0 0 36 36';
     export let tamaSVG = '45';
     export let tamaSVGancho = tamaSVG;
-    export let tamaext = '150';
+    export let tamaext = '160';
     export let tamaletra = '15';
     export let texto = 'Electronica';
 

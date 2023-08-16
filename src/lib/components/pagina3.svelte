@@ -12,8 +12,10 @@
     
     <div class="flex w-full justify-evenly flex-wrap">
         <Proyecto2   imagen="{scr}1265009.jpg"/>
-        <Proyecto nproyecto='Amely esta arrecha' dproyecto='Amely en este momento esta aburrida poruqe su clase esta aburrida' imagen="{scr}B979363067Z.1_20160804121955_000+G647BE7RQ.1-0.png.jpg"/>
-        <Proyecto nproyecto='Brazalete detector de proximidad' dproyecto='Libros vacios para que te hagas el interesante y llenes tu biblioteca' imagen="{scr}Captura.WEBP"/>
+        <Proyecto2   imagen="{scr}1265009.jpg"/>
+        <Proyecto2   imagen="{scr}1265009.jpg"/>
+        <!-- <Proyecto nproyecto='Amely esta arrecha' dproyecto='Amely en este momento esta aburrida poruqe su clase esta aburrida' imagen="{scr}B979363067Z.1_20160804121955_000+G647BE7RQ.1-0.png.jpg"/>
+        <Proyecto nproyecto='Brazalete detector de proximidad' dproyecto='Libros vacios para que te hagas el interesante y llenes tu biblioteca' imagen="{scr}Captura.WEBP"/> -->
         <!-- <Proyecto nproyecto='Una nalga robotica' dproyecto='Construccion de nalga robotica para que le suenen los pedos a las personas sin nalgas' imagen="{scr}1265009.jpg"/> -->
     
     </div>
