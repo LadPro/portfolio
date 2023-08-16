@@ -39,6 +39,7 @@ export default {
         'mrIzqEduca':'15%',
         'padIcon':'6px',
         'navGap':'4vh',
+        'mtCara':'10vh',
       
       },
       height:{

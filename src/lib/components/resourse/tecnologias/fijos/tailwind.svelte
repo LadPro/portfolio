@@ -11,6 +11,9 @@
     export let viewbox = '0 0 32 32';
     export let texto = 'Tailwind';
 
+    let colorFondo = '#0b1121'
+    let colorletra = '#fff'
+    let colordesplegable = '#0b1121'
 
   </script>
   <button 
@@ -18,18 +21,18 @@
     class="overflow-hidden">
     
     <!-- class:w-20={accion} class:w-80={!accion} -->
-    <span style="{`width: ${tamaext}px`}; background-color: #0b1121" class="flex items-center bg-rosa rounded-lg transition-all duration-300 ">
+    <span style="{`width: ${tamaext}px`}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-lg transition-all duration-300 ">
         
       <span   
           class="w-fit transition-all z-10">
           <svg 
           xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
           class="rounded-2xl p-padIcon"
-          style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: #0b1121">
+          style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: {colorFondo}">
           <path xmlns="http://www.w3.org/2000/svg" d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" style="fill:#fff"/>
       </span> 
         <p
-          style="color: #fff; font-size: {tamaletra}px"
+          style="color: {colorletra}; font-size: {tamaletra}px"
           class=" mx-auto z-0 font-semibold transition-all duration-500">
           {texto}
           

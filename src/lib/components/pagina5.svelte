@@ -18,7 +18,7 @@
 
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Lenguajes de programación</h1>
-            <span class="flex space-x-5">
+            <span class="flex flex-wrap space-x-5 space-y-1">
               <Html />
               <Css />
               <Js />
