@@ -1,6 +1,12 @@
 <script>
-    import Buton from "./buton.svelte";
-
+    import Html from "./resourse/tecnologias/fijos/html.svelte";
+    import Css from "./resourse/tecnologias/fijos/css.svelte";
+    import Js from "./resourse/tecnologias/fijos/JS.svelte";
+    import Svelte from "./resourse/tecnologias/fijos/svelte.svelte";
+    import Tailwind from "./resourse/tecnologias/fijos/tailwind.svelte";
+    import Aws from "./resourse/tecnologias/fijos/aws.svelte";
+    import Python from "./resourse/tecnologias/fijos/python.svelte";
+    import Electronica from "./resourse/tecnologias/fijos/electronica.svelte";
 </script>
 
 
@@ -13,30 +19,27 @@
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Lenguajes de programación</h1>
             <span class="flex space-x-5">
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
+              <Html />
+              <Css />
+              <Js />
+              <Python />
             </span>    
         </div>
         
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Frameworks y tecnologias</h1>    
             <span class="flex space-x-5">
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
+                <Svelte />
+                <Tailwind />
             </span>    
         </div>
         
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Frameworks y tecnologias</h1>    
             <span class="flex space-x-5">
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
-                <button class="btn-normal w-fit h-fit p-1">tecnologia</button>
+                <Aws />
+                <Electronica />
+                
             </span>    
         </div>
     </div>

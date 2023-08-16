@@ -40,7 +40,7 @@
 
 </script>
 
-<div style="height: {alto}px;" class=" flex flex-col mx-2 my-4 w-72 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
+<div style="height: {alto}px;" class=" flex flex-col mx-0 my-4 w-72 bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
     <div style="height: {aimagen}px;" class="h-40 overflow-hidden object-cover">
         <img class="" src={imagen} alt="">
     </div>

@@ -8,6 +8,15 @@ export const azul = writable('#8696FE');
 export const rosa = writable('#E0BAFD'); 
 
 
+export const tSVG = writable(55); 
+export const text = writable(220); 
+export const tletra = writable(15); 
+
+
+
+
+
+
 //para importar
 // import {primaria} from './resourse/variables'
 // import {lateral} from './resourse/variables'
