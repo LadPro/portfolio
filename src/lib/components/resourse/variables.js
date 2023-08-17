@@ -12,9 +12,11 @@ export const tSVG = writable(55);
 export const text = writable(220); 
 export const tletra = writable(15); 
 
-export const cfondo = writable('#E0BAFD'); 
-export const cletra = writable('#E0BAFD'); 
-export const colordesplegable = writable('#E0BAFD'); 
+export const cfondo = writable('#fff'); 
+export const cletra = writable('#461959'); 
+export const cdesplegable = writable('#8696FE'); 
+export const cfill = writable('#fff'); 
+export const cfill2 = writable('#8696FE'); 
 
 
 

@@ -1,5 +1,6 @@
 <script>
-    import Footer from "./footer.svelte";
+    import CodeMockup from "./codeMockup.svelte";
+import Footer from "./footer.svelte";
 
 </script>
 
@@ -22,6 +23,9 @@
             <textarea class="textarea textarea-primary w-full max-w-xl h-48 text-lg border-4 focus:outline-verde rounded-2xl border-gray-400" placeholder="Escribe aca tu mensaje"></textarea>
         </span>
         <button class="btn-normal text-black ">Enviar Mensaje</button>
+    </div>
+    <div>
+        <CodeMockup/>
     </div>
 </section>
 <footer class="w-5/6 ml-izq mt-2">

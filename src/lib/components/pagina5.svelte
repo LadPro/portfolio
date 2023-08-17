@@ -18,7 +18,7 @@
 
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Lenguajes de programación</h1>
-            <span class="flex flex-wrap space-x-5 space-y-1">
+            <span class="flex flex-wrap gap-2 space-y-1">
               <Html />
               <Css />
               <Js />
@@ -27,16 +27,16 @@
         </div>
         
         <div class="flex flex-col space-y-5 mt-3">
-            <h1 class="">Frameworks y tecnologias</h1>    
-            <span class="flex space-x-5">
+            <h1 class="">Frameworks</h1>    
+            <span class="flex gap-2">
                 <Svelte />
                 <Tailwind />
             </span>    
         </div>
         
         <div class="flex flex-col space-y-5 mt-3">
-            <h1 class="">Frameworks y tecnologias</h1>    
-            <span class="flex space-x-5">
+            <h1 class="">tecnologias y extras</h1>    
+            <span class="flex gap-2">
                 <Aws />
                 <Electronica />
                 

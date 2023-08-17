@@ -34,16 +34,16 @@
     <h2 class="text-subt text-3xl">Alguna frase corta sobre mis mierdas.</h2>
     <div class="flex flex-col gap-6 mt-8">
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria}/>
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
         </span>
         <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
         </span>
     </div>
     <div>

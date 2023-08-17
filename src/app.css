@@ -19,6 +19,9 @@
         .scrollmargin {
           scroll-margin: 10vh;
         }
+        .rond {
+          @apply rounded-2xl
+        }
       }
 
 
