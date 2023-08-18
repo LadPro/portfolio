@@ -29,7 +29,7 @@ let pwhat = `<path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-1
 
 <footer class="footer p-10 color text-neutral-content items-center h-56" style="background-color: {colorfondo}">
     <div>
-      <p class="text-3xl text-gray-300">Tambien puedes contactarme a travez de:</p>
+      <p class="text-r3xl text-gray-300">Tambien puedes contactarme a travez de:</p>
     </div> 
     <div class="grid grid-flow-row">
         <div class=" flex gap-4">

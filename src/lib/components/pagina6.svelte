@@ -7,13 +7,13 @@ let mensaje = ''
 </script>
 
 
-<section id="Pagina6" class="w-5/6 ml-izq flex flex-col h-fit gap-10 px-32 scroll-m-ad">
+<section id="Pagina6" class="lg:w-5/6 lg:ml-izq flex flex-col h-fit gap-10 px-32 scroll-m-ad">
     <div class="flex">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7">Contacto</h1>
     </div>
-    <div class="flex w-full flex-wrap">
+    <div class="lg:flex w-full flex-wrap">
 
-        <div class="flex flex-col text-subt text-2xl gap-10 font-medium w-1/2">
+        <div class="flex flex-col text-subt text-2xl gap-10 font-medium lg:w-1/2 px-2">
             <span class="w-full space-y-2">
                 <h3>Nombre:</h3>
                 <input bind:value={nombre} type="text" placeholder="Escribe aca tu nombre" class="input text-lg border-gray-400 focus:outline-verde border-4 rounded-2xl w-full max-w-xl" >
@@ -28,15 +28,15 @@ let mensaje = ''
             </span>
             <button class="btn-normal text-black ">Enviar Mensaje</button>
         </div>
-        <div class="w-1/2 gap-1 min-w-codeMockAncho">
+        <div class="lg:w-1/2 gap-1 px-2 max-lg:hidden">
             <CodeMockup nombre={nombre} email={email} mensaje={mensaje}/>
         </div>
     </div>
+    <footer class=" w-fsull lg:w-5/6 lg:ml-izq mt-2">
+    
+        <Footer />
+    </footer>
 </section>
-<footer class="w-5/6 ml-izq mt-2">
-
-    <Footer />
-</footer>
 
 <style>
 

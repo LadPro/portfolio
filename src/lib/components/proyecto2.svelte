@@ -29,7 +29,7 @@
         aws : Aws,
         python : Python,
         electronica : Electronica,
-    }
+    };
     let alto = 450;
     let aimagen = 160;
     let resto = alto - aimagen;

@@ -7,7 +7,7 @@
     let tec1a = ['js','css','svelte']
     // export let cualquiercosa;
 </script>
-<section id="Pagina3" class="w-5/6 ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
+<section id="Pagina3" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
     <div class="flex">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-20">portafolio</h1>
     </div>

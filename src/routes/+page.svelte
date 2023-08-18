@@ -11,22 +11,25 @@
 
 
 <div>
-    <Side /> 
+    <div class="max-lg:hidden">
+        <Side /> 
+
+    </div>
     <div class="space-y-28">
         <Page1 />
-        <div class="flex min-h-screen items-center">
+        <div class="lg:min-h-screen items-center">
             <Page2 />
         </div>
 
-        <div class="flex min-h-screen items-center">
+        <div class="lg:min-h-screen items-center">
             <Page3 />
         </div>
 
-        <div class="flex min-h-screen items-center">
+        <div class="lg:min-h-screen items-center">
             <Page4 />
         </div>
 
-        <div class="flex min-h-screen items-center">
+        <div class="lg:min-h-screen items-center">
             <Page5 />
         </div>
 
