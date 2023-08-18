@@ -31,6 +31,7 @@ export default {
       margin: {
         'izq':'16.66667%',
         'ad':'10vh',
+        'codeMockAncho':'525px'
       
       },
       spacing: {
@@ -42,6 +43,15 @@ export default {
         'mtCara':'10vh',
       
       },
+      
+      width:{
+        'codeMockAncho':'525px',
+      },
+      minWidth:{
+        'codeMockAncho':'525px',
+        
+      },
+
       height:{
         '63' : '252px',
       },

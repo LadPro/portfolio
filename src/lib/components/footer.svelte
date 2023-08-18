@@ -33,10 +33,10 @@ let pwhat = `<path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-1
     </div> 
     <div class="grid grid-flow-row">
         <div class=" flex gap-4">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo}/>
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={pgit} viewbox="0 0 12 12" />
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={plin} viewbox="0 0 512 512" />
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=260 tamaletra=18 fillcolor={colorfondo} svg={pwhat} viewbox="0 0 90 90" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={colorfondo}/>
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={colorfondo} svg={pgit} viewbox="0 0 12 12" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={colorfondo} svg={plin} viewbox="0 0 512 512" />
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={colorfondo} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={colorfondo} svg={pwhat} viewbox="0 0 90 90" />
                       
         </div>
     </div>
