@@ -4,7 +4,7 @@
 
 <div>
     <nav>
-        <ul class="flex flex-col justify-center gap-navGap text-3xl">
+        <ul class="flex flex-col justify-center gap-navGap text-r3xl">
             <li class="justify-center text-center hover:text-verde text-azul hover:underline uppercase font-semibold"><a href="#Pagina1">Joel mora</a></li>
             <li class="justify-center text-center hover:text-verde text-azul hover:underline uppercase font-semibold"><a href="#Pagina2">Sobre mi</a></li>
             <li class="justify-center text-center hover:text-verde text-azul hover:underline uppercase font-semibold"><a href="#Pagina3">Portafolio</a></li>

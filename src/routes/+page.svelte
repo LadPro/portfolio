@@ -1,5 +1,6 @@
 <script>
-    import Side from '../lib/components/Side.svelte'
+    import Cabecera from '$lib/components/cabecera.svelte';
+import Side from '../lib/components/Side.svelte'
     import Page1 from '../lib/components/pagina1.svelte'
     import Page2 from '../lib/components/pagina2.svelte'
     import Page3 from '../lib/components/pagina3.svelte'
@@ -7,12 +8,16 @@
     import Page5 from '../lib/components/pagina5.svelte'
     import Page6 from '../lib/components/pagina6.svelte'
 
-</script>
 
+</script>
 
 <div>
     <div class="max-lg:hidden">
         <Side /> 
+
+    </div>
+    <div class="lg:hidden">
+        <Cabecera/> 
 
     </div>
     <div class="space-y-28">

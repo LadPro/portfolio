@@ -3,8 +3,8 @@
 </script>
 
 
-<section id="Pagina4" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
-    <div class="flex mb-20">
+<section id="Pagina4" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 lg:px-32 px-14 scroll-m-ad ">
+    <div class="flex mb-20 max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest ">EDUCACIóN</h1>
     </div>
 

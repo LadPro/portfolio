@@ -3,6 +3,10 @@
     import {text} from '../../variables'
     import {tletra} from '../../variables'
 
+    import {mtSVG} from '../../variables'
+    import {mtext} from '../../variables'
+    import {mtletra} from '../../variables'
+
     import {cfondo} from '../../variables'
     import {cletra} from '../../variables'
     import {cdesplegable} from '../../variables'
@@ -21,10 +25,11 @@
     let colorfill = '#fff'
     let colorfill2 = '#2299F8'
 
-    let tamaSVG =   $tSVG
-    let tamaSVGancho = tamaSVG;
-    let tamaext =   $text;
-    let tamaletra = $tletra;
+    $: tamaSVG =  innerWidth < 1024 ? $mtSVG : $tSVG
+  $: tamaSVGancho = tamaSVG;
+  $: tamaext = innerWidth < 1024 ? $mtext :  $text;
+  $: tamaletra = innerWidth < 1024 ? $mtletra : $tletra;
+  $: innerWidth = 0
 
     let viewbox = '0 0 512 512';
     let texto = 'CSS';
@@ -32,6 +37,7 @@
 
 
   </script>
+   <svelte:window bind:innerWidth/>
   <button
     aria-label="Click para acceder al correo"
     class="overflow-hidden rond">

@@ -3,7 +3,10 @@
     let scr = 'src/lib/components/resourse/imagenes/'
     import Proyecto from "./proyecto.svelte";
     import Proyecto2 from "./proyecto2.svelte";
+    import Js from "./resourse/tecnologias/JS.svelte";
     import Css from "./resourse/tecnologias/css.svelte"
+    import Electronica from "./resourse/tecnologias/electronica.svelte";
+    import Svelte from "./resourse/tecnologias/svelte.svelte";
     let tec1a = ['js','css','svelte']
     // export let cualquiercosa;
 </script>
@@ -12,8 +15,12 @@
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-20">portafolio</h1>
     </div>
     
-    <div class="flex w-full justify-evenly flex-wrap">
-        <Proyecto2 Tecnologias1= {['js']} Tecnologias2={["aws","svelte","electronica"]} linkGithub="#"  imagen="{scr}1265009.jpg"/>
+    <div class="flex max-lg:flex-col max-lg:items-center px-7 w-full justify-evenly flex-wrap">
+        
+        <Proyecto2 Tecnologias1= {['tailwind', 'html','python']} Tecnologias2={["aws","svelte","electronica"]} linkGithub="#" linkPagina="#" linkYoutube="#"  imagen="{scr}1265009.jpg">
+            <Js/> <Electronica/> <Svelte/> <Css slot='2'/>
+        </Proyecto2>
+        
         <Proyecto2   imagen="{scr}1265009.jpg"/>
         <Proyecto2   imagen="{scr}1265009.jpg"/>
         <!-- <Proyecto nproyecto='Amely esta arrecha' dproyecto='Amely en este momento esta aburrida poruqe su clase esta aburrida' imagen="{scr}B979363067Z.1_20160804121955_000+G647BE7RQ.1-0.png.jpg"/>

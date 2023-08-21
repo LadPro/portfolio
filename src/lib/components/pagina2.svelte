@@ -1,5 +1,6 @@
 <script>
     import Iconodesplegable from "./iconodesplegable.svelte";
+    import MovilIicono from "./movilIicono.svelte";
     import {primaria} from './resourse/variables'
     import {lateral} from './resourse/variables'
     import {verde} from './resourse/variables'
@@ -25,14 +26,14 @@
 </script>
 
 
-<section id="Pagina2" class="lg:w-5/6 lg:ml-izq scroll-m-ad flex flex-col gap-10 px-32"
+<section id="Pagina2" class="lg:w-5/6 lg:ml-izq scroll-m-ad flex flex-col gap-10 lg:px-32 px-14"
 >
-    <div class="flex mb-7">
+    <div class="flex mb-7 max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
-    <p class="text-azul text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quos necessitatibus facere repudiandae quo nobis, dicta placeat exercitationem, adipisci eveniet voluptatum iste natus eum quaerat minus. Neque quas nam unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam, explicabo necessitatibus rem, voluptates cum nisi, commodi perferendis distinctio libero vero inventore alias suscipit voluptatem iusto autem ipsa odit eos..</p>
-    <h2 class="text-subt text-3xl">Alguna frase corta sobre mis mierdas.</h2>
-    <div class="flex flex-col gap-6 mt-8">
+    <p class="text-azul text-4xl lg:text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quos necessitatibus facere repudiandae quo nobis, dicta placeat exercitationem, adipisci eveniet voluptatum iste natus eum quaerat minus. Neque quas nam unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam, explicabo necessitatibus rem, voluptates cum nisi, commodi perferendis distinctio libero vero inventore alias suscipit voluptatem iusto autem ipsa odit eos..</p>
+    <h2 class="text-subt text-5xl lg:text-3xl">Alguna frase corta sobre mis mierdas.</h2>
+    <div class="max-lg:hidden flex flex-col gap-6 mt-8">
         <span class="flex">
             <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
         </span>
@@ -46,7 +47,24 @@
             <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
         </span>
     </div>
-    <div>
+    <div class="lg:hidden flex justify-center gap-16">
+        <div class=" flex flex-col gap-16 mt-8">
+            <span class="flex">
+                <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria}/>
+            </span>
+            <span class="flex">
+                <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
+            </span>
+        </div>
+        <div class=" flex flex-col gap-16 mt-8">
+            
+            <span class="flex">
+                <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
+            </span>
+            <span class="flex">
+                <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
+            </span>
+        </div>
     </div>
 </section>
 

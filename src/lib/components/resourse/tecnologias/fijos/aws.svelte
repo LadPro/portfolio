@@ -2,6 +2,10 @@
   import {tSVG} from '../../variables'
   import {text} from '../../variables'
   import {tletra} from '../../variables'
+  
+  import {mtSVG} from '../../variables'
+  import {mtext} from '../../variables'
+  import {mtletra} from '../../variables'
 
   import {cfondo} from '../../variables'
   import {cletra} from '../../variables'
@@ -17,15 +21,18 @@
   let colorFondo = '#ec7211'
   // let colorletra = '#fff'
   // let colordesplegable = '#ec7211'
-
-  let tamaSVG =   $tSVG
-  let tamaSVGancho = tamaSVG;
-  let tamaext =   $text;
-  let tamaletra = $tletra;
   let viewbox = '0 0 32 32';
   let texto = 'AWS';
 
+  $: tamaSVG =  innerWidth < 1024 ? $mtSVG : $tSVG
+  $: tamaSVGancho = tamaSVG;
+  $: tamaext = innerWidth < 1024 ? $mtext :  $text;
+  $: tamaletra = innerWidth < 1024 ? $mtletra : $tletra;
+  $: innerWidth = 0
+
+
 </script>
+ <svelte:window bind:innerWidth/>
 <button 
   style="{`max-heigth:${tamaSVG} ;`}"
      

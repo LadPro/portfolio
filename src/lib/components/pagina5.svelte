@@ -10,11 +10,11 @@
 </script>
 
 
-<section id="Pagina5" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
-    <div class="flex">
-        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7">Skills</h1>
+<section id="Pagina5" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 px-14 lg:px-32 scroll-m-ad">
+    <div class="flex max-lg:justify-center">
+        <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7 ">Skills</h1>
     </div>
-    <div class="flex flex-col text-subt text-3xl gap-10 font-medium">
+    <div class="flex flex-col text-subt text-3xl gap-10 font-medium max-lg:text-4xl">
 
         <div class="flex flex-col space-y-5 mt-3">
             <h1 class="">Lenguajes de programación</h1>
