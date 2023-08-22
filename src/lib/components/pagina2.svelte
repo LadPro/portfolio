@@ -34,18 +34,10 @@
     <p class="text-azul text-4xl lg:text-2xl text-justify">Busco obtener experiencia como arquitecto en la nube, analista de datos o desarrollador, aplicando mis habilidades y conocimientos para contribuir al crecimiento y éxito de la empresa. Aspiro a trabajar en un entorno dinámico e innovador, donde pueda expandir mis capacidades técnicas y colaborar en la creación de soluciones de vanguardia. Mi objetivo es crecer profesionalmente y aportar valor a través de mi dedicación y pasión por la tecnología.</p>
     <h2 class="text-subt text-5xl lg:text-3xl">Alguna frase corta sobre mis mierdas.</h2>
     <div class="max-lg:hidden flex flex-col gap-6 mt-8">
-        <a target="_blank" href="mailto:JoelJMoraB@gmail.com" class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
-        </a>
-        <a target="_blank" href="https://github.com/LadPro" class="flex">
-            <Iconodesplegable texto='github.com/LadPro' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/joel-mora-barrios-018231249/" class="flex">
-            <Iconodesplegable texto='linkedin.com/in/joel-mora-barrios/' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
-        </a>
-        <a target="_blank" href="https://wa.me/+56996112281" class="flex whitespace-nowrap">
-            <Iconodesplegable texto='+56 9 9611 2281' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
-        </a>
+            <Iconodesplegable texto='JoelJMoraB@gmail.com' link={"mailto:JoelJMoraB@gmail.com"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
+            <Iconodesplegable texto='github.com/LadPro' link={"github.com/LadPro"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
+            <Iconodesplegable texto='linkedin.com/in/joel-mora-barrios/' link={"https://www.linkedin.com/in/joel-mora-barrios-018231249/"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
+            <Iconodesplegable texto='+56 9 9611 2281' link={"https://wa.me/+56996112281"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
     </div>
     <div class="lg:hidden flex justify-center gap-16">
         <div class=" flex flex-col gap-16 mt-8">
