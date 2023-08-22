@@ -1,6 +1,13 @@
 <script>
     import Buton from "./buton.svelte";
     // export let cualquiercosa;
+    function descargarPDF() {
+    const link = document.createElement('a');
+    link.href = './resourse/Joel Mora CV.pdf';
+    link.target = '_blank'; // Abre el enlace en una nueva pestaña/tab
+    link.download = 'Joel Mora CV.pdf';
+    link.click();
+  }
 </script>
 <section id="Pagina1" class="lg:w-5/6 lg:ml-izq h-screen flex flex-col px-11 justify-center gap-20 items-center">
     <div class="flex">
@@ -14,7 +21,7 @@
         
         <!-- <h3 class="text-xl text-verde">JoelJMoraB@gmail.com.</h3> -->
     </span>
-    <button class="btn-normal text-gray-800">Descargar mi CV</button>
+    <button on:click={descargarPDF} class="btn-normal text-gray-800">Descargar mi CV</button>
     <!-- <Buton hovercolor="rosa" texto="Descargar mi CV"/> -->
 </section>
 

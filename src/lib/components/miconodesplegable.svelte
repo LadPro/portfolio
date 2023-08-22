@@ -27,35 +27,37 @@
     export let colordesp = crosa;
     export let coloricon = cverde;
     export let colortxt = cazul;
+    export let link = '#/';
     export let tamaletra = '18';
     export let texto = 'JoelJMoraB@gmail.com';
-  
+    export let space = false
     
 
   </script>
   <svelte:window bind:innerWidth/>
   <button 
+    class:whitespace-nowrap={space}
     on:mouseenter={() => accion = false} on:mouseleave={() => accion = true}   
     aria-label="Click para acceder al correo" 
     class="overflow-hidden">
-    
-    <!-- class:w-20={accion} class:w-80={!accion} -->
-    <span style="{`width: ${tamaext}px`}; background-color: {colordesp}" class="flex items-center bg-rosa rounded-2xl transition-all duration-300  relative">
-        
-      <a href="#/"   
-          class="w-fit transition-all z-10">
-          <svg 
-          xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
-          class="rounded-2xl p-2"
-          style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: {coloricon}">
-          {@html svg}</svg>
-      </a> 
-        <p
-          style="color: {colortxt}; font-size: {tamaletra}px"
-          class=" mx-auto z-0 font-semibold transition-all duration-500">
-          {texto}
+    <a href="{link}" target="_blank">
+      <span style="{`width: ${tamaext}px`}; background-color: {colordesp}" class="flex items-center bg-rosa rounded-2xl transition-all duration-300  relative">
           
-        </p>
-    </span>  
+        <span      
+            class="w-fit transition-all z-10">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
+            class="rounded-2xl p-2"
+            style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: {coloricon}">
+            {@html svg}</svg>
+        </span> 
+          <p
+            style="color: {colortxt}; font-size: {tamaletra}px"
+            class=" mx-auto z-0 font-semibold transition-all duration-500">
+            {texto}
+            
+          </p>
+      </span>  
+    </a>
   </button>
 

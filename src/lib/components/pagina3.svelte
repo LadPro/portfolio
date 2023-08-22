@@ -1,16 +1,14 @@
 <script>
 // @ts-nocheck
     let scr = 'src/lib/components/resourse/imagenes/'
-    import Proyecto from "./proyecto.svelte";
     import Proyecto2 from "./proyecto2.svelte";
     import Js from "./resourse/tecnologias/JS.svelte";
     import Css from "./resourse/tecnologias/css.svelte"
     import Electronica from "./resourse/tecnologias/electronica.svelte";
     import Svelte from "./resourse/tecnologias/svelte.svelte";
-    let tec1a = ['js','css','svelte']
     // export let cualquiercosa;
 </script>
-<section id="Pagina3" class="lg:w-5/6 lg:ml-izq flex flex-col gap-10 px-32 scroll-m-ad">
+<section id="Pagina3" class="lg:w-5/6 lg:ml-izq flex flex-col gap-7 px-32 scroll-m-ad">
     <div class="flex">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-20">portafolio</h1>
     </div>

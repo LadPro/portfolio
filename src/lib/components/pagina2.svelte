@@ -31,39 +31,39 @@
     <div class="flex mb-7 max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
-    <p class="text-azul text-4xl lg:text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quos necessitatibus facere repudiandae quo nobis, dicta placeat exercitationem, adipisci eveniet voluptatum iste natus eum quaerat minus. Neque quas nam unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam, explicabo necessitatibus rem, voluptates cum nisi, commodi perferendis distinctio libero vero inventore alias suscipit voluptatem iusto autem ipsa odit eos..</p>
+    <p class="text-azul text-4xl lg:text-2xl text-justify">Busco obtener experiencia como arquitecto en la nube, analista de datos o desarrollador, aplicando mis habilidades y conocimientos para contribuir al crecimiento y éxito de la empresa. Aspiro a trabajar en un entorno dinámico e innovador, donde pueda expandir mis capacidades técnicas y colaborar en la creación de soluciones de vanguardia. Mi objetivo es crecer profesionalmente y aportar valor a través de mi dedicación y pasión por la tecnología.</p>
     <h2 class="text-subt text-5xl lg:text-3xl">Alguna frase corta sobre mis mierdas.</h2>
     <div class="max-lg:hidden flex flex-col gap-6 mt-8">
-        <span class="flex">
+        <a target="_blank" href="mailto:JoelJMoraB@gmail.com" class="flex">
             <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
-        </span>
-        <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
-        </span>
-        <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
-        </span>
-        <span class="flex">
-            <Iconodesplegable texto='JoelJMoraB@gmail.com' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
-        </span>
+        </a>
+        <a target="_blank" href="https://github.com/LadPro" class="flex">
+            <Iconodesplegable texto='github.com/LadPro' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/joel-mora-barrios-018231249/" class="flex">
+            <Iconodesplegable texto='linkedin.com/in/joel-mora-barrios/' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
+        </a>
+        <a target="_blank" href="https://wa.me/+56996112281" class="flex whitespace-nowrap">
+            <Iconodesplegable texto='+56 9 9611 2281' colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
+        </a>
     </div>
     <div class="lg:hidden flex justify-center gap-16">
         <div class=" flex flex-col gap-16 mt-8">
-            <span class="flex">
+            <a target="_blank" href="mailto:JoelJMoraB@gmail.com" class="flex">
                 <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria}/>
-            </span>
-            <span class="flex">
+            </a>
+            <a target="_blank" href="https://github.com/LadPro" class="flex">
                 <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
-            </span>
+            </a>
         </div>
         <div class=" flex flex-col gap-16 mt-8">
             
-            <span class="flex">
+            <a target="_blank" href="https://www.linkedin.com/in/joel-mora-barrios-018231249/" class="flex">
                 <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
-            </span>
-            <span class="flex">
+            </a>
+            <a target="_blank" href="https://wa.me/+56996112281" class="flex">
                 <MovilIicono colordesp={cverde} tamaSVG=80 tamaext=150 tamaalto=150 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
-            </span>
+            </a>
         </div>
     </div>
 </section>

@@ -7,7 +7,7 @@ let mensaje = ''
 </script>
 
 
-<section id="Pagina6" class="flex lg:w-5/6 lg:ml-izq w-full flex-col h-full gap-10 lg:px-32 px-14 scroll-m-ad">
+<section id="Pagina6" class="flex lg:w-5/6 lg:ml-izq w-full flex-col h-full gap-7 lg:px-32 px-14 scroll-m-ad">
     <div class="flex max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7">Contacto</h1>
     </div>

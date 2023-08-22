@@ -27,36 +27,40 @@
     export let coloricon = cverde;
     export let colortxt = cazul;
     export let tamaletra = '18';
+    export let link = '#/';
     export let texto = 'JoelJMoraB@gmail.com';
-  
+    export let space = false
     
 
   </script>
   <button 
     on:mouseenter={() => accion = false} on:mouseleave={() => accion = true}   
+    style={space ? "white-space: nowrap;" : ""}
     aria-label="Click para acceder al correo" 
-    class="overflow-hidden">
-    
-    <!-- class:w-20={accion} class:w-80={!accion} -->
-    <span style="{accion ? `width: ${tamaSVG}px`: `width: ${tamaext}px`}; background-color: {colordesp}" class="flex items-center bg-rosa rounded-2xl transition-all duration-300  relative">
-        
-      <a href="#/"   
-          class="w-fit transition-all z-10">
-          <svg 
-          xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
-          class="rounded-2xl p-2"
-          style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: {coloricon}">
-          {@html svg}</svg>
-      </a> 
-        <p
-          style="color: {colortxt}; font-size: {tamaletra}px"
-          class:translate-x-0={!accion} 
-          class:-translate-x-60={accion} 
-          class=" mx-auto z-0 font-semibold transition-all duration-500">
-          {texto}
+    class="overflow-hidden"
+    >
+    <a href="{link}" target="_blank">
+      <span style="{accion ? `width: ${tamaSVG}px`: `width: ${tamaext}px`}; background-color: {colordesp}" class="flex items-center bg-rosa rounded-2xl transition-all duration-300  relative">
           
-        </p>
-    </span>  
+        <span   
+            class:whitespace-nowrap={space}
+            class="w-fit transition-all z-10">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
+            class="rounded-2xl p-2"
+            style="width: {tamaSVG}px; height: {tamaSVGancho}px; background-color: {coloricon}">
+            {@html svg}</svg>
+        </span> 
+          <p
+            style="color: {colortxt}; font-size: {tamaletra}px"
+            class:translate-x-0={!accion} 
+            class:-translate-x-60={accion} 
+            class=" mx-auto z-0 font-semibold transition-all duration-500">
+            {texto}
+            
+          </p>
+      </span>  
+    </a>
   </button>
 
 
