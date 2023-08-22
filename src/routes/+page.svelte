@@ -8,9 +8,7 @@ import Side from '../lib/components/Side.svelte'
     import Page5 from '../lib/components/pagina5.svelte'
     import Page6 from '../lib/components/pagina6.svelte'
 
-
 </script>
-
 <div>
     <div class="max-lg:hidden">
         <Side /> 
@@ -37,8 +35,8 @@ import Side from '../lib/components/Side.svelte'
         <div class="lg:min-h-screen items-center">
             <Page5 />
         </div>
-
         <Page6 />
+
         
     </div>
 </div>

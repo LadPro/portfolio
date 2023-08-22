@@ -21,7 +21,7 @@
     
     $: tamaSVG =  innerWidth < 1024 ? $mtSVG : $tSVG
     $: tamaSVGancho = tamaSVG;
-    $: tamaext = innerWidth < 1024 ? $mtext :  $text;
+    $: tamaext = $text;
     $: tamaletra = innerWidth < 1024 ? $mtletra : $tletra;
     $: innerWidth = 0
 
@@ -43,10 +43,12 @@
     class="overflow-hidden rond">
     
     <!-- class:w-20={accion} class:w-80={!accion} -->
-    <span style="{`width: ${tamaext}px`}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-lg transition-all duration-300 ">
+    <span style="{innerWidth > 1024
+      ? `width: ${tamaext}px`
+      : 'width: 100%'}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-lg">
         
       <span   
-          class="w-fit transition-all z-10">
+          class="w-fit z-10">
           <svg 
           xmlns="http://www.w3.org/2000/svg" viewBox={viewbox} 
           class="rounded-xl p-padIcon"
@@ -56,7 +58,7 @@
       </span> 
         <p
           style="color: {colorletra}; font-size: {tamaletra}px"
-          class=" mx-auto z-0 font-semibold transition-all duration-500">
+          class=" mx-auto z-0 font-semibold ">
           {texto}
           
         </p>

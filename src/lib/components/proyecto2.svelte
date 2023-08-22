@@ -30,7 +30,6 @@
         python : Python,
         electronica : Electronica,
     };
-    $: innerWidth = 0
     // let alto = 450;
     // let aimagen = alto * 0.35555;
     // let resto = alto - aimagen;
@@ -38,14 +37,15 @@
     // let cont = resto - texto;
     // let ico = alto * 0.2556;
     // let link = cont - ico;
-
+    
+    $: innerWidth = 0;
     $: aimagen = alto * 0.35555;
     $: resto = alto - aimagen;
     $: texto = alto * 0.26667;
     $: cont = resto - texto;
     $: ico = alto * 0.2555;
     $: link = cont - ico;
-
+    
     $: alto = innerWidth < 1024 ? 1100 : 450;
     $: icon1 = innerWidth < 1024 ? 100 : 45;
     $: icon2 = innerWidth < 1024 ? 110 : 50;
