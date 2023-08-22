@@ -37,7 +37,7 @@
             <Iconodesplegable texto='JoelJMoraB@gmail.com' link={"mailto:JoelJMoraB@gmail.com"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
             <Iconodesplegable texto='github.com/LadPro' link={"github.com/LadPro"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
             <Iconodesplegable texto='linkedin.com/in/joel-mora-barrios/' link={"https://www.linkedin.com/in/joel-mora-barrios-018231249/"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
-            <Iconodesplegable texto='+56 9 9611 2281' link={"https://wa.me/+56996112281"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
+            <Iconodesplegable texto='+56 9 9611 2281' link={"https://wa.me/+56996112281"} space={true} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
     </div>
     <div class="lg:hidden flex justify-center gap-16">
         <div class=" flex flex-col gap-16 mt-8">
