@@ -23,7 +23,7 @@
 
         <Educacion Nombre='Ingles C1 Avanzado' Fechas='Julio 2023' Descripcion='Comprensión de textos complejos, capacidad de interactuar con hablantes nativos, capacidad para expresarse con fluidez' Duracion='' certificado='C1 Poliglota'/>
 
-        <Educacion Nombre='Ingenieria en electronica' Fechas='Marzo 2021' Descripcion='Titulo universitario' Duracion='Carreta universitaria 5 años' certificado='Seguridad en la Nube.pdf'/>
+        <Educacion Nombre='Ingenieria en electronica' Fechas='Marzo 2021' Descripcion='Titulo universitario' Duracion='Carreta universitaria 5 años' certificado='Ingeniero.pdf'/>
     </div>
 </section>
 
