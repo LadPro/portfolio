@@ -31,11 +31,16 @@
     <div class="flex mb-7 max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
-    <p class="text-azul text-4xl lg:text-2xl text-justify">Busco obtener experiencia como arquitecto en la nube, analista de datos o desarrollador, aplicando mis habilidades y conocimientos para contribuir al crecimiento y éxito de la empresa. Aspiro a trabajar en un entorno dinámico e innovador, donde pueda expandir mis capacidades técnicas y colaborar en la creación de soluciones de vanguardia. Mi objetivo es crecer profesionalmente y aportar valor a través de mi dedicación y pasión por la tecnología.</p>
+    <p class="text-azul text-4xl lg:text-2xl text-justify">
+        ¡Saludos! Soy un Ingeniero en Electrónica con una pasión desbordante por la tecnología y un apetito insaciable por el aprendizaje constante. Mi viaje en busca del conocimiento me lleva a explorar y abrazar un abanico diverso de disciplinas. <br><br>
+        
+        El desarrollo web me atrapó con su capacidad de dar vida a las ideas y conectar al mundo digital. Mis aventuras en el entorno de AWS han ampliado mi visión sobre la potencia de la nube y cómo puede transformar industrias. La magia de manejar y analizar datos es mi próxima parada, donde deseo extraer insights valiosos de los números y construir soluciones más inteligentes.<br><br>
+        
+        Mi portafolio es un testamento a mi viaje de aprendizaje. Aquí verás mis experimentos con el desarrollo web, mis incursiones en la nube de AWS y mi camino hacia el dominio de análisis de datos. Estoy emocionado por poner a prueba los conocimientos adquiridos y desarrollar aún más mis habilidades en estas áreas de inmensa fascinación.</p>
     <h2 class="text-subt text-5xl lg:text-3xl">Alguna frase corta sobre mis mierdas.</h2>
     <div class="max-lg:hidden flex flex-col gap-6 mt-8">
             <Iconodesplegable texto='JoelJMoraB@gmail.com' link={"mailto:JoelJMoraB@gmail.com"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
-            <Iconodesplegable texto='github.com/LadPro' link={"github.com/LadPro"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
+            <Iconodesplegable texto='github.com/LadPro' link={"https://github.com/LadPro"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pgit} viewbox="0 0 12 12" />
             <Iconodesplegable texto='linkedin.com/in/joel-mora-barrios/' link={"https://www.linkedin.com/in/joel-mora-barrios-018231249/"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={plin} viewbox="0 0 512 512" />
             <Iconodesplegable texto='+56 9 9611 2281' link={"https://wa.me/+56996112281"} space={true} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria} svg={pwhat} viewbox="0 0 90 90" />
     </div>
