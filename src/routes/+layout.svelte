@@ -9,9 +9,6 @@
     import '@fontsource/lobster'
     import '@fontsource/space-grotesk'
     import '@fontsource/overpass'
-    import {tSVG} from '../lib/components/resourse/variables'
-    import {text} from '../lib/components/resourse/variables'
-    import {tletra} from '../lib/components/resourse/variables'
 
 
     </script>

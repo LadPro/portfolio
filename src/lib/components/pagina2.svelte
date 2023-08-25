@@ -31,12 +31,8 @@
     <div class="flex mb-7 max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest">sobre mi</h1>
     </div>
-    <p class="text-azul text-4xl lg:text-2xl text-justify">
-        Soy un Ingeniero en electrónica apasionado por la tecnología y siempre hambriento de aprender. Mi trayecto de conocimiento me lleva a explorar diversas disciplinas. <br>
-        
-        El desarrollo web me atrapó con su capacidad de dar vida a las ideas y conectar al mundo digital. Mis aventuras en el entorno de AWS han ampliado mi visión sobre la potencia de la nube y cómo puede transformar industrias. La magia de manejar y analizar datos es mi próxima parada, donde deseo extraer insights valiosos de los números y construir soluciones más inteligentes.<br>
-        
-        Mi portafolio es un reflejo de mi viaje de aprendizaje. Aquí verás mis experimentos con el desarrollo web, mis incursiones en la nube de AWS y mi camino hacia el dominio de análisis de datos. Deseo poner a prueba los conocimientos adquiridos y desarrollar aún más mis habilidades en estas áreas de mi interes.</p>
+    <p class="text-azul text-4xl lg:text-2xl ">
+        Soy un Ingeniero en Electrónica apasionado por la tecnología y en constante búsqueda de conocimiento. Mi travesía me ha llevado a explorar diversas disciplinas. El desarrollo web me cautivó por su capacidad de dar vida a ideas y conectar con el mundo digital.  Mis experiencias en AWS han ampliado mi visión sobre la nube y su transformación industrial. La magia de datos es mi próximo objetivo, donde ansío extraer insights valiosos y construir soluciones inteligentes. Mi portafolio refleja mi recorrido: desarrollo web, AWS y análisis de datos. Busco poner a prueba mis conocimientos y expandir habilidades en estas áreas.</p>
     <h2 class="text-subt text-5xl lg:text-3xl">El conocimiento mas importante que se puede obtener siempre es el siguiente.</h2>
     <div class="max-lg:hidden flex flex-col gap-6 mt-8">
             <Iconodesplegable texto='JoelJMoraB@gmail.com' link={"mailto:JoelJMoraB@gmail.com"} colortxt={cprimaria} colordesp={cverde} tamaSVG=50 tamaext=300 tamaletra=18 fillcolor={cprimaria}/>
