@@ -3,13 +3,11 @@
     export let Fechas = 'Agosto 2022 - Septiembre 2022 (fechas)'
     export let Descripcion = 'Descripcion general, conocimientos aprendidos. (Descripcion)'
     export let Duracion = 'curso 10 horas (Duracion)'
-    export let certificado = 'Diplomado en Arquitectura y Seguridad Cloud.pdf'
+    export let certificado = '1wGwZ19qPh4OSAK07Jn_-XRDIkrx8u2e-'
 
     function descargarPDF() {
     const link = document.createElement('a');
-    link.href = `./resourse/${certificado}`;
-    link.target = '_blank'; // Abre el enlace en una nueva pestaña/tab
-    link.download = certificado;
+    link.href = `https://drive.google.com/uc?export=download&id=${certificado}`;
     link.click();
   }
 </script>

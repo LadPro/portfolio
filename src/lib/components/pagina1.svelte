@@ -1,9 +1,7 @@
 <script>
     function descargarPDF() {
     const link = document.createElement('a');
-    link.href = './resourse/Joel Mora CV.pdf';
-    link.target = '_blank'; // Abre el enlace en una nueva pestaña/tab
-    link.download = 'Joel Mora CV.pdf';
+    link.href = 'https://drive.google.com/uc?export=download&id=1U882TA-voH18ed80ZciZsF1GcrTrhmep';
     link.click();
   }
 </script>
