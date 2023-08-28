@@ -15,7 +15,7 @@
     
     <div class="flex max-lg:flex-col max-lg:items-center px-7 w-full justify-evenly flex-wrap">
         
-        <Proyecto2 Tecnologias1= {['tailwind', 'html','python']} Tecnologias2={["aws","svelte","electronica"]} linkGithub="#" linkPagina="#" linkYoutube="#"  imagen="{scr}1265009.jpg">
+        <Proyecto2 Tecnologias1= {['tailwind', 'html','python']} Tecnologias2={["aws","svelte","electronica"]} linkGithub="#" linkPagina="/pruebas" linkYoutube="#"  imagen="{scr}1265009.jpg">
             <Js/> <Electronica/> <Svelte/> <Css slot='2'/>
         </Proyecto2>
         

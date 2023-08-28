@@ -2,41 +2,15 @@
 // @ts-nocheck
 
     import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
-    import Html from "./resourse/tecnologias/html.svelte";
-    import Css from "./resourse/tecnologias/css.svelte";
-    import Js from "./resourse/tecnologias/JS.svelte";
-    import Svelte from "./resourse/tecnologias/svelte.svelte";
-    import Tailwind from "./resourse/tecnologias/tailwind.svelte";
-    import Aws from "./resourse/tecnologias/aws.svelte";
-    import Python from "./resourse/tecnologias/python.svelte";
-    import Electronica from "./resourse/tecnologias/electronica.svelte";
     
     export let nproyecto = 'Nombre del proyecto y descripcion del mismo algo corto no tan largo pero que de a entender mas o menos de que trata y si es posible tambien colocar para que fue hecho';
     export let imagen = Imagen;
     export let linkYoutube = "#.";
-    export let linkPagina = "#.";
+    export let linkPagina = "/pruebas";
     export let linkGithub = "#.";
-    export let Tecnologias1 = ['html','css','js'];
     export let Tecnologias2 = '';
     
 
-    let Tecnologias = {
-    html : Html,
-        css : Css,
-        js : Js,
-        svelte : Svelte,
-        tailwind : Tailwind,
-        aws : Aws,
-        python : Python,
-        electronica : Electronica,
-    };
-    // let alto = 450;
-    // let aimagen = alto * 0.35555;
-    // let resto = alto - aimagen;
-    // let texto = alto * 0.26667;
-    // let cont = resto - texto;
-    // let ico = alto * 0.2556;
-    // let link = cont - ico;
     
     $: innerWidth = 0;
     $: aimagen = alto * 0.35555;
@@ -64,18 +38,12 @@
             
             <div style="height: {ico}px;" class="flex-col flex items-center justify-center gap-2">
                 <span class="flex flex-wrap gap-2">
-                    <!-- {#each Tecnologias1 as Tecnologia}
-                    <svelte:component this={Tecnologias[Tecnologia]}/>
-                    {/each} -->
                     <slot/>
                 </span>
                 
                 <span 
                     style="{Tecnologias2 == ''? 'display : none': ''}" 
                     class="flex gap-2">
-                    <!-- {#each Tecnologias2 as Tecnologia}
-                    <svelte:component this={Tecnologias[Tecnologia]}/>
-                    {/each} -->
                     <slot name="2"> </slot>
                 </span>
             </div>
