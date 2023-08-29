@@ -1,5 +1,5 @@
 <script>
-    import Educacion from "./educacion.svelte";
+    import Educacion from "./resourse/componentes/educacion.svelte";
 </script>
 
 
@@ -26,7 +26,6 @@
         <Educacion Nombre='Ingenieria en electronica' Fechas='Marzo 2021' Descripcion='Titulo universitario' Duracion='Carreta universitaria 5 años' certificado='1lqdGS_lZC3_XG2ZX6GhbWmPnJLmkQA6L'/>
     </div>
 </section>
-
 <style>
 
 </style>

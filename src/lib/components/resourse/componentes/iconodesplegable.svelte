@@ -1,11 +1,11 @@
     <!-- correo -->
   <script>
-    import {primaria} from './resourse/variables'
-    import {lateral} from './resourse/variables'
-    import {verde} from './resourse/variables'
-    import {subt} from './resourse/variables'
-    import {azul} from './resourse/variables'
-    import {rosa} from './resourse/variables'
+    import {primaria} from '../variables'
+    import {lateral} from '../variables'
+    import {verde} from '../variables'
+    import {subt} from '../variables'
+    import {azul} from '../variables'
+    import {rosa} from '../variables'
 
     //colores:
     let cprimaria = $primaria

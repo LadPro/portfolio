@@ -1,6 +1,6 @@
 <script>
-    import Nav from './nav.svelte'
-    import Imagen from './imagen.svelte'
+    import Nav from './resourse/componentes/nav.svelte'
+    import Imagen from './resourse/componentes/imagen.svelte'
 
 </script>
 

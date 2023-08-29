@@ -1,5 +1,5 @@
 <script>
-    import Proyecto from "./proyecto.svelte";
+    import Proyecto from "./proyecto2.svelte";
 </script>
 
 <div class="carousel w-full">

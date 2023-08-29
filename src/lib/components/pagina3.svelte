@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
     let scr = 'src/lib/components/resourse/imagenes/'
-    import Proyecto2 from "./proyecto2.svelte";
+    import Proyecto2 from "./resourse/componentes/proyecto2.svelte";
     import Js from "./resourse/tecnologias/JS.svelte";
     import Css from "./resourse/tecnologias/css.svelte"
     import Electronica from "./resourse/tecnologias/electronica.svelte";

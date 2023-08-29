@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-    import Imagen from './resourse/imagenes/Anotación 2020-08-18 212512.png';
+    import Imagen from '../imagenes/Anotación 2020-08-18 212512.png';
     
     export let nproyecto = 'Nombre del proyecto y descripcion del mismo algo corto no tan largo pero que de a entender mas o menos de que trata y si es posible tambien colocar para que fue hecho';
     export let imagen = Imagen;

@@ -2,8 +2,8 @@
 // @ts-nocheck
 
     let my_modal_5 = {}
-    import CodeMockup from "./codeMockup.svelte";
-    import Footer from "./footer.svelte";
+    import CodeMockup from "./resourse/componentes/codeMockup.svelte";
+    import Footer from "./resourse/componentes/footer.svelte";
     let nombre = ''
     let email = ''
     let mensaje = ''

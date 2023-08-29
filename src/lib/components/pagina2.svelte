@@ -1,6 +1,6 @@
 <script>
-    import Iconodesplegable from "./iconodesplegable.svelte";
-    import MovilIicono from "./movilIicono.svelte";
+    import Iconodesplegable from "./resourse/componentes/iconodesplegable.svelte";
+    import MovilIicono from "./resourse/componentes/movilIicono.svelte";
     import {primaria} from './resourse/variables'
     import {lateral} from './resourse/variables'
     import {verde} from './resourse/variables'
