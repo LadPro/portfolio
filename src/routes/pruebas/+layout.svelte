@@ -1,0 +1,8 @@
+
+<slot />
+
+<style>
+    body{
+        width: 100%;
+    }
+</style>

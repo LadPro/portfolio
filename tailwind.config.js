@@ -26,7 +26,8 @@ export default {
         verde: '#3DF039',
         subt: '#CD6688',
         azul: '#8696FE',
-        rosa: '#E0BAFD'
+        rosa: '#E0BAFD',
+        gris: 'rgb(209 213 219)'
       },
       margin: {
         'izq':'16.66667%',
@@ -41,6 +42,7 @@ export default {
         'padIcon':'6px',
         'navGap':'3vh',
         'mtCara':'10vh',
+        'proporcion':'70%',
       
       },
       
