@@ -36,7 +36,7 @@
     class="overflow-hidden rond">
     
     <span style="{innerWidth > 1024
-      ? `width: ${tamaext}px`
+      ? `width: ${tamaext}px `
       : 'width: 100%'}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-lg">
         
       <span   
