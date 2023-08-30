@@ -5,6 +5,8 @@
     import Aws from "$lib/components/resourse/tecnologias/fijos/aws.svelte";
     import Css from "$lib/components/resourse/tecnologias/fijos/css.svelte";
     import Js from "$lib/components/resourse/tecnologias/fijos/JS.svelte";
+    import Intermedio from "$lib/components/proyectowp/intermedio.svelte";
+    import Links from "$lib/components/proyectowp/links.svelte";
     
 
 </script>
@@ -15,7 +17,8 @@
         <Svelte/>
         <Css/>
         <Js/>
-
     </Central1>
-
+    <Intermedio>
+        <Links linkGithub="/pruebas"/>
+    </Intermedio>
 </div>

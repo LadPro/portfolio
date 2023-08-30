@@ -47,7 +47,7 @@
                     <slot name="2"> </slot>
                 </span>
             </div>
-            <span style="height: {link}px;" class="pb-3 flex gap-3">
+            <div style="height: {link}px;" class="pb-3 flex gap-3">
                 
                     <a 
                         style= "{linkPagina != "#." ? '': 'display: none'}" 
@@ -70,7 +70,7 @@
                     
 
 
-            </span>
+            </div>
         </div>
     </div>
     
