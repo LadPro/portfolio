@@ -4,7 +4,7 @@
     import Js from "./resourse/tecnologias/fijos/JS.svelte";
     import Svelte from "./resourse/tecnologias/fijos/svelte.svelte";
     import Tailwind from "./resourse/tecnologias/fijos/tailwind.svelte";
-    import Aws from "./resourse/tecnologias/fijos/aws.svelte";
+    import Aws from "$lib/components/resourse/tecnologias/fijos/aws.svelte";
     import Python from "./resourse/tecnologias/fijos/python.svelte";
     import Electronica from "./resourse/tecnologias/fijos/electronica.svelte";
 </script>

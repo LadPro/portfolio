@@ -4,7 +4,7 @@
 
 </script>
 
-<header class="w-screen bg-lateral space-y-10">
+<header class="w-full bg-lateral space-y-10">
     <nav class="flex lg:justify-end">
         <ul class="flex max-lg:w-full max-lg:justify-between lg:gap-12 text-3xl mx-12">
             <Labellink />

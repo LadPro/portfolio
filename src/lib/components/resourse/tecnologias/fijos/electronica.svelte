@@ -37,7 +37,7 @@
     
     <span style="{innerWidth > 1024
       ? `width: ${tamaext}px `
-      : 'width: 100%'}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-lg">
+      : 'width: 100%'}; background-color: {colordesplegable}" class="flex items-center bg-rosa rounded-2xl">
         
       <span   
           class="w-fit z-10">

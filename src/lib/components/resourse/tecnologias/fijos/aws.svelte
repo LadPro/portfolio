@@ -4,13 +4,10 @@
   import { tletra } from "../../variables";
 
   import { mtSVG } from "../../variables";
-  import { mtext } from "../../variables";
   import { mtletra } from "../../variables";
 
-  import { cfondo } from "../../variables";
   import { cletra } from "../../variables";
   import { cdesplegable } from "../../variables";
-  import { cfill } from "../../variables";
 
   // let colorFondo = $cfondo
   let colorletra = $cletra;
@@ -38,7 +35,7 @@
     style="{innerWidth > 1024
       ? `width: ${tamaext}px`
       : 'width: 100%'}; background-color: {colordesplegable}"
-    class="flex items-center bg-rosa rounded-lg"
+    class="flex items-center bg-rosa rounded-2xl"
   >
     <span class="w-fit z-10">
       <svg
@@ -55,7 +52,7 @@
     >
     <p
       style="color: {colorletra}; font-size: {tamaletra}px"
-      class="mx-auto z-0 font-semibold duration-500"
+      class="mx-auto z-0 font-semibold "
     >
       {texto}
     </p>

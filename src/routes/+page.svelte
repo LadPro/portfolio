@@ -9,7 +9,7 @@
     import Page6 from '../lib/components/pagina6.svelte'
 
 </script>
-<div>
+<div class="">
     <div class="max-lg:hidden">
         <Side /> 
 
@@ -24,7 +24,7 @@
             <Page2 />
         </div>
 
-        <div class="lg:min-h-screen items-center">
+        <div class="lg:min-h-screen items-center ">
             <Page3 />
         </div>
 
