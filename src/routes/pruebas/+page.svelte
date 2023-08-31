@@ -36,14 +36,10 @@
             </div>
         </Intermedio>
         <div class="flex max-lg:flex-col w-full items-center justify-between gap-4 px-14 text-azul">
-            <div class="order-2 lg:order-1">
 
-                <Descripcion/>
-            </div>
-            <div class="order-1 lg:order-2">
+            <ImagenDescrip  modo_a={true} imagen=https://i.ibb.co/y0G6wQ8/149391458452.jpg/>
+            <Descripcion  modo_a={true} />
 
-                <ImagenDescrip imagen=https://i.ibb.co/Cwc1J9z/B979363067-Z-1-20160804121955-000-G647-BE7-RQ-1-0-png.jpg/>
-            </div>
             
         </div>
         <Intermedio> 
