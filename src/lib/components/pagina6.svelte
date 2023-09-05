@@ -8,10 +8,11 @@
     let email = ''
     let mensaje = ''
     function modal() {
-        my_modal_5.showModal()
+        if (nombre === '' && email === '' && mensaje === '') 
+        {my_modal_5.showModal()
         nombre = ''
         email = ''
-        mensaje = ''
+        mensaje = ''}
     }
 </script>
 
