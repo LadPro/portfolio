@@ -2,17 +2,21 @@
 // @ts-nocheck
 
     let my_modal_5 = {}
+    let my_modal_1 = {}
     import CodeMockup from "./resourse/componentes/codeMockup.svelte";
     import Footer from "./resourse/componentes/footer.svelte";
     let nombre = ''
     let email = ''
     let mensaje = ''
     function modal() {
-        if (nombre === '' && email === '' && mensaje === '') 
+        if (nombre != '' && email != '') 
         {my_modal_5.showModal()
         nombre = ''
         email = ''
         mensaje = ''}
+        else{
+            my_modal_1.showModal()
+        }
     }
 </script>
 
@@ -22,7 +26,16 @@
       <p class="py-4"> Nos comunicaremos contigo en breve.</p>
       <div class="modal-action">
         <!-- if there is a button in form, it will close the modal -->
-        <button class="text-gray-700 btn bg-verde">Cerrar</button>
+        <button class=" btn-normal bg-verde">Cerrar</button>
+      </div>
+    </form>
+  </dialog>
+<dialog bind:this={my_modal_1} class=" modal modal-bottom sm:modal-middle">
+    <form method="dialog" class="text-azul text-xl bg-lateral modal-box">
+      <h3 class="font-bold text-2xl">Porfavor llena todos los datos.</h3>
+      <div class="modal-action">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class=" btn-normal">Cerrar</button>
       </div>
     </form>
   </dialog>
@@ -33,7 +46,7 @@
     </div>
     <div class="lg:grid grid-cols-2 falex w-full items-cenater h-full ">
 
-        <form on:submit|preventDefault={modal} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
+        <form on:submit{modal} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
             <span class="w-full space-y-2">
                 <h3>Nombre:</h3>
                 <input  bind:value={nombre} type="nombre" name="name" placeholder="Escribe aca tu nombre" class="input text-4xl max-lg:h-20 lg:text-lg border-gray-400 focus:outline-verde border-4 rounded-2xl w-full lg:max-w-xl" >
@@ -47,9 +60,8 @@
                 <textarea bind:value={mensaje} name="message" class="textarea textarea-primary w-full lg:max-w-xl h-48 text-4xl lg:text-lg border-4 focus:outline-verde rounded-2xl border-gray-400" placeholder="Escribe aca tu mensaje"></textarea>
             </span>
             <input type="text" name="honeypot" style="display:none">
-            <input type="hidden" name="accessKey" value="b47d9ebb-f289-4e04-a75a-526b98beb411">
+            <input type="hidden" name="accessKey" value="17c9a36e-4587-4820-94cc-9e709f3761cd">
             <input type="hidden" name="subject" value="Contact us from - example.com" />
-            <input type="hidden" name="redirectTo" value="https://www.joeljmora.tech/">
             
             <button type="submit" class="btn-normal text-black">Enviar Mensaje</button>
         </form>
