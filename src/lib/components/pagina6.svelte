@@ -8,20 +8,20 @@
     let nombre = ''
     let email = ''
     let mensaje = ''
+
     async function modal() {
+
         if (nombre != '' && email != '')       
         {
-        const formData = new FormData()
-        formData.append('name', nombre)     
-        formData.append('email', email)     
-        formData.append('message', mensaje)
+        const queryString = `name=${encodeURIComponent(nombre)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(mensaje)}&honeypot=&accessKey=${apiKey}&subject=Contact+us+from+-+example.com`;
         try {
             const response = await fetch('https://api.staticforms.xyz/submit', {
                 method: 'POST',
-                body:formData,
-                headers:{
-                    Athorization: `Bearer ${apiKey}`,
-                },
+                body:queryString,
+                headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+        },
+               
             });
             if (response.ok) {
                 my_modal_5.showModal()
@@ -29,9 +29,8 @@
                 email = ''
                 mensaje = ''
                 console.log('formulario enviado con exito');
-            }else {
-                console.error('error al enviar formulario')
             }
+            
         } catch (error) {
             console.error('error al enviar formulario',error)
         }
@@ -67,7 +66,7 @@
     <div class="flex max-lg:justify-center">
         <h1 class="text-rosa text-8xl font-bold uppercase pr-7 tracking-widest mb-7">Contacto</h1>
     </div>
-    <div class="lg:grid grid-cols-2 falex w-full items-cenater h-full ">
+    <div class="lg:grid grow grid-cols-2 falex w-full items-cenater h-full ">
 
         <form on:submit|preventDefault={modal} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
             <span class="w-full space-y-2">
@@ -88,7 +87,7 @@
             
             <button type="submit" class="btn-normal text-black">Enviar Mensaje</button>
         </form>
-        <div class="flex lg:wa-1/2 px-2 max-lg:hidden h-full">
+        <div class="flex grow lg:wa-1/2 px-2 max-lg:hidden h-full">
             <CodeMockup nombre={nombre} email={email} mensaje={mensaje}/>
         </div>
     </div>

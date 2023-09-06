@@ -9,7 +9,7 @@
     const fechaformato = `${dia} 0${mes} ${año}`
 </script>
 
-<div class="flex bg-gray-800 flex-col p-5 rounded-2xl text-azul min:h-full min-w-codeMocakaAncho break-all border-4 max-w-xl border-gray-400">
+<div class="flex grow bg-gray-800 flex-col p-5 rounded-2xl text-azul min:h-full min-w-codeMocakaAncho break-all border-4 max-w-xl border-gray-400">
     <div class="flex">
         <pre class="text-blue-200 opacity-60"> 1  </pre>
         <pre class="whitespace-pre-wrap"><code><span class="text-rosa ">const </span>button <span class="text-rosa">=</span> document.querySelector('<span class="text-subt">#sendBtn</span> ')<span class="text-gray-300">;</span></code></pre> 
