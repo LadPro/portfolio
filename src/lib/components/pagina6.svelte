@@ -8,37 +8,12 @@
     let nombre = ''
     let email = ''
     let mensaje = ''
-
-    async function modal() {
-
-        if (nombre != '' && email != '')       
-        {
-        const queryString = `name=${encodeURIComponent(nombre)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(mensaje)}&honeypot=&accessKey=${apiKey}&subject=Contact+us+from+-+example.com`;
-        try {
-            const response = await fetch('https://api.staticforms.xyz/submit', {
-                method: 'POST',
-                body:queryString,
-                headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-        },
-               
-            });
-            if (response.ok) {
-                my_modal_5.showModal()
-                nombre = ''
-                email = ''
-                mensaje = ''
-                console.log('formulario enviado con exito');
-            }
-            
-        } catch (error) {
-            console.error('error al enviar formulario',error)
-        }
-        
-        }
-        else{
-            my_modal_1.showModal()
-        }
+    function modal() {
+        if (nombre === '' && email === '' && mensaje === '') 
+        {my_modal_5.showModal()
+        nombre = ''
+        email = ''
+        mensaje = ''}
     }
 </script>
 
@@ -68,7 +43,7 @@
     </div>
     <div class="lg:grid grow grid-cols-2 falex w-full items-cenater h-full ">
 
-        <form on:submit|preventDefault={modal} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
+        <form on:submit:preventDefault|{modal()} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
             <span class="w-full space-y-2">
                 <h3>Nombre:</h3>
                 <input  bind:value={nombre} type="nombre" name="name" placeholder="Escribe aca tu nombre" class="input text-4xl max-lg:h-20 lg:text-lg border-gray-400 focus:outline-verde border-4 rounded-2xl w-full lg:max-w-xl" >
