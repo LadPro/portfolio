@@ -1,6 +1,6 @@
 <script>
 // @ts-nocheck
-
+    const apiKey = "17c9a36e-4587-4820-94cc-9e709f3761cd"
     let my_modal_5 = {}
     let my_modal_1 = {}
     import CodeMockup from "./resourse/componentes/codeMockup.svelte";
@@ -8,9 +8,11 @@
     let nombre = ''
     let email = ''
     let mensaje = ''
-    function modal() {
-        if (nombre != '' && email != '') 
-        {my_modal_5.showModal()
+    async function modal() {
+        if (nombre != '' && email != '')       
+        {
+        async     
+        my_modal_5.showModal()
         nombre = ''
         email = ''
         mensaje = ''}
@@ -46,7 +48,7 @@
     </div>
     <div class="lg:grid grid-cols-2 falex w-full items-cenater h-full ">
 
-        <form on:submit{modal} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
+        <form on:submit:preventDefault|{modal()} action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col text-subt text-4xl lg:text-2xl gap-10 font-medium px-2">
             <span class="w-full space-y-2">
                 <h3>Nombre:</h3>
                 <input  bind:value={nombre} type="nombre" name="name" placeholder="Escribe aca tu nombre" class="input text-4xl max-lg:h-20 lg:text-lg border-gray-400 focus:outline-verde border-4 rounded-2xl w-full lg:max-w-xl" >
