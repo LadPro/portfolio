@@ -1,6 +1,6 @@
 <script>
     import Cabecera from '$lib/components/resourse/componentes/cabecera.svelte';
-    import Side from '$lib/components/Side.svelte'
+    import Side from '$lib/components/Side1.svelte'
     import Page1 from '$lib/components/pagina1.svelte'
     import Page2 from '$lib/components/pagina2.svelte'
     import Page3 from '$lib/components/pagina3.svelte'
