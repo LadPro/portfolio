@@ -1,5 +1,6 @@
 <script>
     export let imagen = 'https://i.ibb.co/3h5XqyX/1222470.jpg'
+    export let alt = "imagen del proyecto"
 </script>
 
 <div class="flex max-lg:flex-col w-full items-center  text-azul">
@@ -13,7 +14,7 @@
         </div>
     </div> -->
     <div style="aspect-ratio: 16/9;" class="flex justify-center shrink-0 items-center overflow-hidden lg:w-[60%] lg:min-w-[700px] max-lg:w-full lg:px-14 ">
-        <img class="w-full min-h-full object-cover" src={imagen} alt="imagen del proyecto">
+        <img class="w-full min-h-full object-cover" src={imagen} alt={alt}>
     </div>
     <div class="flex flex-col justify-center lg:items-center lg:mx-auto w-full px-14">
         <h2 class="lg:text-2xl text-4xl text-center font-bold mb-6 max-lg:mt-6">Tecnologias</h2>

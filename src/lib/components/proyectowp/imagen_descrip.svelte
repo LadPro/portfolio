@@ -1,6 +1,7 @@
 <script>
     export let imagen = "https://i.ibb.co/3h5XqyX/1222470.jpg";
     export let modo_a = false;
+    export let alt = "imagen del proyecto"
 </script>
 
 <div
@@ -10,8 +11,8 @@
     class="flex shrink-0 justify-center items-center overflow-hidden lg:min-w-[500px] lg:lg:w-[50%] max-lg:w-full"
 >
     <img
-        class="w-full min-h-full object-cover"
+        class="min-w-full max-h-full obaject-cover h-auto"
         src={imagen}
-        alt="imagen del proyecto"
+        alt= {alt}
     />
 </div>
