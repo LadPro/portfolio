@@ -24,9 +24,9 @@
             <Page2 />
         </div>
 
-        <!-- <div class="lg:min-h-screen items-center ">
+        <div class="lg:min-h-screen items-center ">
             <Page3 />
-        </div> -->
+        </div>
 
         <div class="lg:min-h-screen items-center">
             <Page4 />
