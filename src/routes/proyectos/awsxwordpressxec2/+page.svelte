@@ -24,42 +24,54 @@
         </Imgtech>
         <Intermedio>
             <div class="lg:text-lg text-2xl text-blue-300 flex flex-wrap justify-center gap-2 ">
-                <p>#ArquitecturaCloud </p>
+                <!-- <p>#ArquitecturaCloud </p> -->
                 <!-- <p>#FrontEnd </p>
                 <p>#DesarrolloWeb </p>
                 <p>#DesarrolloWeb</p> -->
             </div>
             <div class="">
 
-                <Links linkYoutube="https://youtu.be/nBldwN3idwA" linkPagina="https://wordpress.joeljmora.tech/"/>
+                <!-- <Links linkYoutube="https://youtu.be/nBldwN3idwA" linkPagina="https://wordpress.joeljmora.tech/"/> -->
             </div>
         </Intermedio>
-        <div class="flex max-lg:flex-col w-full items-center justify-between gap-4 px-14 text-azul">
+        <div class=" px-14 text-azul ">
+            <div class=" flex max-lg:flex-col w-full items-center justify-between gap-4 px-24">
 
-            <ImagenDescrip  modo_a={true} imagen="https://i.ibb.co/rZhNq3R/Wordpress2.jpg" alt="Diagrama worpress en aws"/>
-            <Descripcion descripcion="Este proyecto se enfoca en la implementación segura y auto escalable de una infraestructura de alojamiento de <strong>WordPress</strong> en la nube de <strong>Amazon Web Services (AWS)</strong>. Se asegura el <strong>control óptimo sobre el escalado de la infraestructura</strong>, se integra una <strong>base de datos externa </strong>utilizando los servicios de AWS, se aplica un <strong>certificado SSL</strong> para la seguridad de la comunicación y se establece una conexión con un <strong>host externo</strong>, brindando así una solución integral y altamente eficiente."  modo_a={true} />
+                <ImagenDescrip  modo_a={true} imagen="https://i.ibb.co/rZhNq3R/Wordpress2.jpg" alt="Diagrama worpress en aws"/>
+                <Descripcion descripcion="Este proyecto se enfoca en la implementación segura y auto escalable de una infraestructura de alojamiento de <strong>WordPress</strong> en la nube de <strong>Amazon Web Services (AWS)</strong>. Se asegura el <strong>control óptimo sobre el escalado de la infraestructura</strong>, se integra una <strong>base de datos externa </strong>utilizando los servicios de AWS, se aplica un <strong>certificado SSL</strong> para la seguridad de la comunicación y se establece una conexión con un <strong>host externo</strong>, brindando así una solución integral y altamente eficiente."  modo_a={true} />
+            </div>
 
             
         </div>
         <Intermedio> 
             <h1 class="text-subt lg:text-rm3xl text-3xl text-center font-bold ">Proyecto realizado como práctica de arquitectura en la nube AWS.</h1>
         </Intermedio>
-        <div class="flex max-lg:flex-col w-full items-center justify-between gap-4 px-14 text-azul">
-            <ImagenDescrip imagen=https://i.ibb.co/rcJm3yK/Nrxo0Im.gif/>
-            <Descripcion descripcion= "Cabe destacar que existen múltiples opciones para alojar WordPress en AWS, incluyendo servicios sencillos como Lightsail, que permiten hacerlo en unos pocos clics. No obstante, esta implementación se orienta hacia un enfoque manual para un control más detallado del proceso y una comprensión más profunda de la interconexión de servicios AWS." />
+        <div class="px-14 text-azul">
+            <div class="flex max-lg:flex-col w-full items-center justify-between gap-4 px-14">
 
-        </div>
-        <Intermedio />
-        <div class="flex w-full items-center px-14 text-azul gap-4">
+                <ImagenDescrip imagen=https://i.ibb.co/12108nF/wordpress.png/>
+                <Descripcion descripcion= "Cabe destacar que existen múltiples opciones para alojar WordPress en AWS, incluyendo servicios sencillos como Lightsail, que permiten hacerlo en unos pocos clics. No obstante, esta implementación se orienta hacia un enfoque manual para un control más detallado del proceso y una comprensión más profunda de la interconexión de servicios AWS." />
+            </div>
             
-            <Video texto = "La infraestructura diseñada para este proyecto abarca un conjunto de componentes esenciales. En primer lugar, se integran instancias EC2 en un grupo de autoescalado, lo que facilita la escalabilidad horizontal, permitiendo la creación de nuevas instancias de EC2 de manera dinámica en respuesta a las demandas del tráfico. Además, se opta por el servicio RDS, proporcionando un entorno aislado y eficiente para gestionar la base de datos, garantizando un alto nivel de disponibilidad y seguridad en la gestión de los datos.
-            <br> <br>
+        </div>
+        <Intermedio>
+            <div>
 
-            Asimismo, se incorpora el sistema de archivos elástico (Elastic File System) para el almacenamiento compartido, lo que garantiza la accesibilidad y la compartición de datos de manera eficiente y colaborativa. Para habilitar la conectividad a Internet y gestionar la distribución del tráfico, se implementa un balanceador de carga (Load Balancer) que se conecta a un subdominio alojado en un host externo, específicamente Vercel. Esto garantiza un acceso sin interrupciones y un rendimiento óptimo.
-            <br> <br>
-            Finalmente, en cuanto a la seguridad, se emplea el Certificate Manager, una herramienta esencial que facilita la gestión de certificados de seguridad para garantizar la protección de los datos y la integridad de la comunicación en línea. Este conjunto de elementos se fusiona en una infraestructura integral y eficaz, que no solo garantiza la operatividad y la escalabilidad, sino que también se enfoca en salvaguardar la confidencialidad y la seguridad de los datos y la comunicación en línea.
-            <br> <br>
-            En la siguiente sección, presentamos un video que documenta la implementación completa de este proyecto en Amazon Web Services." linkvideo = "https://www.youtube.com/embed/nBldwN3idwA?si=VfBFlo7Qd5lwZrfw"/>
+            </div>
+            <div></div>
+        </Intermedio>
+        <div class="px-14 text-azul gap-4 mt-14">
+            <div class="flex w-full items-center px-14">
+
+                <Video texto = "La infraestructura diseñada para este proyecto abarca un conjunto de componentes esenciales. En primer lugar, se integran instancias EC2 en un grupo de autoescalado, lo que facilita la escalabilidad horizontal, permitiendo la creación de nuevas instancias de EC2 de manera dinámica en respuesta a las demandas del tráfico. Además, se opta por el servicio RDS, proporcionando un entorno aislado y eficiente para gestionar la base de datos, garantizando un alto nivel de disponibilidad y seguridad en la gestión de los datos.
+                <br> <br>
+    
+                Asimismo, se incorpora el sistema de archivos elástico (Elastic File System) para el almacenamiento compartido, lo que garantiza la accesibilidad y la compartición de datos de manera eficiente y colaborativa. Para habilitar la conectividad a Internet y gestionar la distribución del tráfico, se implementa un balanceador de carga (Load Balancer) que se conecta a un subdominio alojado en un host externo, específicamente Vercel. Esto garantiza un acceso sin interrupciones y un rendimiento óptimo.
+                <br> <br>
+                Finalmente, en cuanto a la seguridad, se emplea el Certificate Manager, una herramienta esencial que facilita la gestión de certificados de seguridad para garantizar la protección de los datos y la integridad de la comunicación en línea. Este conjunto de elementos se fusiona en una infraestructura integral y eficaz, que no solo garantiza la operatividad y la escalabilidad, sino que también se enfoca en salvaguardar la confidencialidad y la seguridad de los datos y la comunicación en línea.
+                <br> <br>
+                En la siguiente sección, presentamos un video que documenta la implementación completa de este proyecto en Amazon Web Services." linkvideo = "https://www.youtube.com/embed/nBldwN3idwA?si=VfBFlo7Qd5lwZrfw"/>
+            </div>
 
         </div>
     </div>

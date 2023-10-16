@@ -3,7 +3,7 @@
     export let alt = "imagen del proyecto"
 </script>
 
-<div class="flex max-lg:flex-col w-full items-center  text-azul">
+<div class="px-24 flex max-lg:flex-col w-full items-center  text-azul">
     <!-- <div class="flex flex-col space-y-5">
         <h2 class="text-2xl text-center font-bold">Categoria</h2>
         <div class="text-lg text-center">

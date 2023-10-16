@@ -5,11 +5,11 @@
 
 <div>
     <div>
-        <p class="text-3xl lg:text-xl mb-6">
+        <p style="line-height: 35px;" class="text-3xl lg:text-xl mb-6">
             {@html texto}
         </p>
     </div>
-    <div class="flex justify-center mx-28">
+    <div class="flex justify-center mx-28 ">
 
         <iframe style="aspect-ratio: 16/9;" class="w-full h-auto" src={linkvideo} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

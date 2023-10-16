@@ -60,6 +60,9 @@ export default {
       padding:{
         'general':'',
       },
+      lineHeight:{
+        '2.25':['clamp(1.30rem, 0.1rem + 1.4vw, 2.255rem)']
+      },
       fontSize:{
         'r3xl':['clamp(1rem, 0.1rem + 1.4vw, 1.875rem)', 'normal'],
         'rm3xl':['clamp(1.3rem, 0.15rem + 1.6vw, 1.875rem)', 'normal'],

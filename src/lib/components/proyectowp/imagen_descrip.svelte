@@ -11,7 +11,7 @@
     class="flex shrink-0 justify-center items-center overflow-hidden lg:min-w-[500px] lg:lg:w-[50%] max-lg:w-full"
 >
     <img
-        class="min-w-full max-h-full obaject-cover h-auto"
+        class="min-w-full h-full max-h-full obaject-cover"
         src={imagen}
         alt= {alt}
     />

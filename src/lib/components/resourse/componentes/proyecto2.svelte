@@ -6,7 +6,7 @@
     export let nproyecto = 'Nombre del proyecto y descripcion del mismo algo corto no tan largo pero que de a entender mas o menos de que trata y si es posible tambien colocar para que fue hecho';
     export let imagen = Imagen;
     export let linkYoutube = "#.";
-    export let linkPagina = "/pruebas";
+    export let linkPagina = "#.";
     export let linkGithub = "#.";
     export let Tecnologias2 = '';
     
