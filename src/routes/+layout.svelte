@@ -1,7 +1,6 @@
 <script>
-    import {fly, fade, blur} from 'svelte/transition'
+    import {fly, fade, blur, slide, scale,draw} from 'svelte/transition'
 
-    import {page} from '$app/stores'
     import '../app.css'
     import '@fontsource/roboto'
     import '@fontsource/montserrat'
@@ -18,8 +17,8 @@
     {JSON.stringify({$page})}
 </pre> -->
     {#key data.url}
-    <div in:blur={{duration: 400, delay: 400}}
-        out:blur={{duration:400}}>
+    <div in:fade={{duration: 200, delay: 200}}
+        out:fade={{duration:200}}>
 
         <slot />
     </div>

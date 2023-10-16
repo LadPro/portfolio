@@ -16,7 +16,7 @@
     
     <div class="flex max-lg:flex-col max-lg:items-center px-7 w-full justify-evenly flex-wrap">
         
-        <Proyecto2 nproyecto="Infraestructura para hostear wordpress en AWS auto escalable y seguro." linkPagina="/proyectos/awsxwordpressxec2" linkYoutube="https://youtu.be/nBldwN3idwA"  imagen="https://i.ibb.co/qy5ZNmK/aws-wordpress.png">
+        <Proyecto2 nproyecto="Infraestructura para hostear wordpress en AWS auto escalable y seguro." linkPagina="https://wordpress.joeljmora.tech" linkYoutube="https://youtu.be/nBldwN3idwA"  imagen="https://i.ibb.co/qy5ZNmK/aws-wordpress.png">
             <Aws/> 
         </Proyecto2>
         

@@ -1,4 +1,5 @@
 <script>
+    // export let a = "/"
     import Nav from './resourse/componentes/nav.svelte'
     import Imagen from './resourse/componentes/imagen.svelte'
 
@@ -8,10 +9,10 @@
 <section class="bg-lateral fixed h-screen w-2/12">
     <!-- <div class="grid grid-flow-row justify-items-center items-center h-full -m-20"> -->
     <div class="flex flex-col gap-mtCara items-center h-full ">
-        <span class="">
+        <div class="">
 
             <Imagen />
-        </span>
+        </div>
         <Nav/>
     </div>
 </section>

@@ -1,6 +1,6 @@
 <script>
     export let nombre = 'Volver'
-    export let link = '/'
+    export let link = '/#Pagina3'
 </script>
 
 <div class="text-xl font-bold text-primario bg-verde w-52 rounded-b-2xl pb-3 no-underline link -mt-2">
