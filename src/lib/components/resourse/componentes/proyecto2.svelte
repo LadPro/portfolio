@@ -23,10 +23,18 @@
     $: alto = innerWidth < 1024 ? 1100 : 450;
     $: icon1 = innerWidth < 1024 ? 100 : 45;
     $: icon2 = innerWidth < 1024 ? 110 : 50;
+
+    function abrirpaginaproyecto() {
+        if (linkPagina != "#."){
+            window.open(linkPagina, "_self")
+
+        }
+        
+    }
 </script>
 <svelte:window bind:innerWidth/>
 
-<div style="height: {alto}px;" class=" flex flex-col mx-0 my-4 w-72 max-lg:w-full bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
+<div on:click={abrirpaginaproyecto} on:keydown={abrirpaginaproyecto} tabindex="0" role="button" style="height: {alto}px;" class=" flex flex-col mx-0 my-4 w-72 max-lg:w-full bg-lateral text-rosa outline outline-4 outline-slate-50 rounded-2xl overflow-hidden hover:shadow-2xl ">
     <div style="height: {aimagen}px;" class="h-40 overflow-hidden object-cover">
         <img class="" src={imagen} alt="">
     </div>
@@ -47,7 +55,7 @@
                     <slot name="2"> </slot>
                 </span>
             </div>
-            <div style="height: {link}px;" class="pb-3 flex gap-3">
+            <div on:click={(e)=>{e.stopPropagation()}} style="height: {link}px;" class="pb-3 flex gap-3 z-10">
                 
                     <a 
                         style= "{linkPagina != "#." ? '': 'display: none'}" 
