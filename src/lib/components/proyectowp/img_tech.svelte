@@ -13,7 +13,7 @@
             <h3>Desarrollo web</h3>
         </div>
     </div> -->
-    <div style="aspect-ratio: 16/9;" class="flex justify-center shrink-0 items-center overflow-hidden lg:w-[60%] lg:min-w-[700px] max-lg:w-full lg:px-14 ">
+    <div style="aspect-ratio: 16/9;" class="flex justify-center shrink-0 items-center overflow-hidden lg:w-[55%] lg:min-w-[650px] max-lg:w-full lg:px-14 ">
         <img class="w-full min-h-full object-cover" src={imagen} alt={alt}>
     </div>
     <div class="flex flex-col justify-center lg:items-center lg:mx-auto w-full px-14">
