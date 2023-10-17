@@ -41,7 +41,7 @@ let pwhat = `<path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-1
         <div class="lg:hidden flex flex-wrap gap-4 justify-center">
             <Miconodesplegable texto='JoelJMoraB@gmail.com' link={"mailto:JoelJMoraB@gmail.com"} colortxt={colorfondo} colordesp={cverde} tamaSVG=90 tamaext=410 tamaletra=25 fillcolor={colorfondo}/>
             <Miconodesplegable texto='github.com/LadPro' link={"https://github.com/LadPro"} colortxt={colorfondo} colordesp={cverde} tamaSVG=90 tamaext=410 tamaletra=25 fillcolor={colorfondo} svg={pgit} viewbox="0 0 12 12" />
-            <Miconodesplegable texto='linkedin.com/in/joel-mora-barrios/'  link={"https://www.linkedin.com/in/joel-mora-barrios-018231249/"} colortxt={colorfondo} colordesp={cverde} tamaSVG=90 tamaext=410 tamaletra=25 fillcolor={colorfondo} svg={plin} viewbox="0 0 512 512" />
+            <Miconodesplegable texto='linkedin.com/in/joeljmora'  link={"https://www.linkedin.com/in/joeljmora/"} colortxt={colorfondo} colordesp={cverde} tamaSVG=90 tamaext=410 tamaletra=25 fillcolor={colorfondo} svg={plin} viewbox="0 0 512 512" />
             <Miconodesplegable texto='+56 9 9611 2281' space={true} link={"https://wa.me/+56996112281"} colortxt={colorfondo} colordesp={cverde} tamaSVG=90 tamaext=410 tamaletra=25 fillcolor={colorfondo} svg={pwhat} viewbox="0 0 90 90" />    
         </div>
     </div>
