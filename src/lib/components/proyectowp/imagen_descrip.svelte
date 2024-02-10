@@ -6,6 +6,7 @@
     let zoom = false
 
     function modal() {
+        // @ts-ignore
         my_modal_1.showModal()
         }
 </script>
@@ -28,7 +29,7 @@
 >
 <button
 on:click={modal}
-class:zoom-in={zoom}
+
 >
 
     <img
@@ -42,18 +43,3 @@ class:zoom-in={zoom}
 </div>
 
 
-<style>
-    .imagen-container {
-    cursor: pointer;
-    }
-
-    .zoom-in {
-        transform: scale(2);
-        transition: transform 0.3s;
-    }
-
-    .zoom-out {
-        transform: scale(1);
-        transition: transform 0.3s;
-    }
-</style>

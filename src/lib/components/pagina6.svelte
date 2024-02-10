@@ -82,7 +82,7 @@
                     <textarea bind:value={mensaje} name="message" class="textarea textarea-primary w-full lg:max-w-xl h-48 text-4xl lg:text-lg border-4 focus:outline-verde rounded-2xl border-gray-400" placeholder="Escribe aca tu mensaje"></textarea>
                 </span>
                 <input type="text" name="honeypot" style="display:none">
-                <input type="hidden" name="accessKey" value="17c9a36e-4587-4820-94cc-9e709f3761cd">
+                <input type="hidden" name="accessKey" value="17c9a36e-4587-4820-94c-9e709f3761cd">
                 <input type="hidden" name="subject" value="Contact us from - example.com" />
                 
                 <button type="submit" class="btn-normal text-black">Enviar Mensaje</button>
